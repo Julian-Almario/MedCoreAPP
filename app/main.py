@@ -102,7 +102,7 @@ def main(page: ft.Page):
 
 # -------------------------------------------------------------------------------
     # Ruta de medicamentos
-    RUTA_MEDS = os.path.abspath(os.path.join(os.path.dirname(__file__), "storage", "meds"))
+    RUTA_MEDS = os.path.abspath(os.path.join(os.path.dirname(__file__), "data", "meds"))
     os.makedirs(RUTA_MEDS, exist_ok=True)
 
     def save_meds_to_json(meds_list):
