@@ -348,3 +348,108 @@ def calculadora_paquete_año():
             )
         ],
     )
+
+def indice_choque():
+    sistolica_field = ft.TextField(
+        label="Presión Sistólica (mmHg)",
+        hint_text="Ej: 120",
+        keyboard_type=ft.KeyboardType.NUMBER,
+        text_align=ft.TextAlign.CENTER,
+        width=250
+    )
+
+    lpm_field = ft.TextField(
+        label="Latidos por minuto",
+        hint_text="Ej: 100",
+        keyboard_type=ft.KeyboardType.NUMBER,
+        text_align=ft.TextAlign.CENTER,
+        width=250
+    )
+
+    resultado_texto = ft.Text(
+        "Indice: -",
+        style=ft.TextThemeStyle.HEADLINE_SMALL,
+        color=TEXT_COLOR,
+        text_align=ft.TextAlign.CENTER
+    )
+
+    formula_text = ft.Text(
+        "Indice de choque = lpm / Presion sistolica",
+        color=TEXT_COLOR,
+        size=14,
+        text_align=ft.TextAlign.CENTER
+    )
+
+    def calcular_pam(e):
+        try:
+            pas = float(sistolica_field.value)
+            lpm = float(lpm_field.value)
+
+            indice = lpm / pas
+            resultado_texto.value = f"Indice: {indice:.2f}"
+            formula_text.value = f"Fórmula usada: Indice = {pas} / {lpm} = {indice:.2f}"
+
+        except ValueError:
+            resultado_texto.value = "Indice: Valor inválido"
+            formula_text.value = "Fórmula usada: Indice de choque = lpm / Presion sistolica"
+
+        resultado_texto.update()
+        formula_text.update()
+
+    sistolica_field.on_change = calcular_pam
+    lpm_field.on_change = calcular_pam
+
+    panel_ref = ft.Ref[ft.ExpansionPanel]()
+    panel_list_ref = ft.Ref[ft.ExpansionPanelList]()
+
+    def on_expand_change(e):
+        panel = panel_ref.current
+        is_expanded = panel.expanded
+        panel.bgcolor = SECONDARY_COLOR if is_expanded else PRIMARY_COLOR
+        panel.update()
+        if not is_expanded:
+            sistolica_field.value = ""
+            lpm_field.value = ""
+            resultado_texto.value = "Indice de choque: -"
+            formula_text.value = "Fórmula usada: Indice de choque = lpm / Presion sistolica"
+            sistolica_field.update()
+            lpm_field.update()
+            resultado_texto.update()
+            formula_text.update()
+
+    return ft.ExpansionPanelList(
+        ref=panel_list_ref,
+        on_change=on_expand_change,
+        expand_icon_color=TEXT_COLOR,
+        elevation=8,
+        divider_color=TEXT_COLOR,
+        controls=[
+            ft.ExpansionPanel(
+                ref=panel_ref,
+                header=ft.ListTile(
+                    title=ft.Text("Indice de choque", text_align=ft.TextAlign.LEFT, color=TEXT_COLOR)
+                ),
+                content=ft.Container(
+                    content=ft.Column(
+                        controls=[
+                            ft.Column(
+                                controls=[
+                                    lpm_field,
+                                    sistolica_field,
+                                ],
+                                spacing=8,
+                                horizontal_alignment=ft.CrossAxisAlignment.CENTER
+                            ),
+                            ft.Row([formula_text], alignment=ft.MainAxisAlignment.CENTER),
+                            ft.Row([resultado_texto], alignment=ft.MainAxisAlignment.CENTER)
+                        ],
+                        spacing=15,
+                        horizontal_alignment=ft.CrossAxisAlignment.CENTER
+                    ),
+                    padding=ft.padding.all(10)
+                ),
+                bgcolor=PRIMARY_COLOR,
+                expanded=False,
+            )
+        ],
+    )

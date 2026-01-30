@@ -143,5 +143,11 @@ calculadoras = [
             "titulo": "Ballard score",
             "tags": ["pediatria","prematuro"],
             "componente": BallardScore()
+        },
+        {
+            "titulo": "Indice de choque",
+            "tags": ["general", "cirugia"],
+            "componente": indice_choque()
+
         }
     ]
