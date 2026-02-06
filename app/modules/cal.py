@@ -11,7 +11,7 @@ from calculadoras.abdomen import *
 from calculadoras.neuro import *
 from calculadoras.liquidos import *
 from calculadoras.pediatria import *
-
+from calculadoras.cirugia import *
 
 calculadoras = [
         {
@@ -148,6 +148,10 @@ calculadoras = [
             "titulo": "Indice de choque",
             "tags": ["general", "cirugia"],
             "componente": indice_choque()
-
+        },
+        {
+            "titulo": "tg18 colangitis",
+            "tags": ["cirugia", "colangitis"],
+            "componente": tg18_colangitis()
         }
     ]
