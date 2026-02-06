@@ -158,5 +158,10 @@ calculadoras = [
             "titulo": "tg18 colecistitis",
             "tags": ["cirugia", "colecistitis"],
             "componente": tg18_colecistitis()
+        },
+        {
+            "titulo": "AIR Score apendicitis",
+            "tags": ["cirugia", "apendicitis"],
+            "componente": criterios_air()
         }
     ]

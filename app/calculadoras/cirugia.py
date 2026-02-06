@@ -400,7 +400,7 @@ def tg18_colecistitis():
                             plan_text
                         ],
                         spacing=12,
-                        horizontal_alignment=ft.CrossAxisAlignment.CENTER # CENTRADO TOTAL
+                        horizontal_alignment=ft.CrossAxisAlignment.CENTER
                     )
                 )
             )
@@ -408,24 +408,48 @@ def tg18_colecistitis():
     )
 
 def criterios_air():
-    criterios = [
+    criterios_simple = [
         ("Dolor en fosa iliaca derecha", 1),
-        ("Resistencia muscular leve en FID", 1),
-        ("Resistencia muscular moderada en FID", 2),
-        ("Resistencia muscular grave en FID", 3),
-        ("Temperatura > 38.5°C ", 1),
-        ("Leucocitosis 10.000 - 14.000 cel/mm", 1),
-        ("Leucocitosis > 15.000 cel/mm", 2),
-        ("Neutrofilia 70-84%", 1),
-        ("Neutrofilia >85%", 2),
-        ("PCR 10-49 g/dl", 1),
-        ("PCR >50 g/dl", 2)
+        ("Temperatura > 38.5°C", 1),
     ]
 
     checkboxes = []
 
+    resistencia_radio = ft.RadioGroup(
+        content=ft.Column([
+            ft.Radio(value="0", label="Sin resistencia"),
+            ft.Radio(value="1", label="Resistencia leve (+1)"),
+            ft.Radio(value="2", label="Resistencia moderada (+2)"),
+            ft.Radio(value="3", label="Resistencia grave (+3)"),
+        ])
+    )
+
+    leucocitos_radio = ft.RadioGroup(
+        content=ft.Column([
+            ft.Radio(value="0", label="Normal"),
+            ft.Radio(value="1", label="10.000 - 14.000 (+1)"),
+            ft.Radio(value="2", label=">15.000 (+2)"),
+        ])
+    )
+
+    neutrofilos_radio = ft.RadioGroup(
+        content=ft.Column([
+            ft.Radio(value="0", label="Normal"),
+            ft.Radio(value="1", label="70-84% (+1)"),
+            ft.Radio(value="2", label=">85% (+2)"),
+        ])
+    )
+
+    pcr_radio = ft.RadioGroup(
+        content=ft.Column([
+            ft.Radio(value="0", label="Normal"),
+            ft.Radio(value="1", label="10-49 (+1)"),
+            ft.Radio(value="2", label=">50 (+2)"),
+        ])
+    )
+
     resultado_texto = ft.Text(
-        "Puntaje de Alvarado: -",
+        "Puntaje AIR: -",
         style=ft.TextThemeStyle.HEADLINE_SMALL,
         color=TEXT_COLOR,
         text_align=ft.TextAlign.CENTER
@@ -438,89 +462,123 @@ def criterios_air():
         text_align=ft.TextAlign.CENTER
     )
 
-    def calcular_alvarado(e=None):
-        puntaje = sum(valor for cb, valor in checkboxes if cb.value)
-        resultado_texto.value = f"Puntaje de Alvarado: {puntaje}"
+    def calcular_air(e=None):
+        puntaje = 0
+
+        for cb, valor in checkboxes:
+            if cb.value:
+                puntaje += valor
+
+        puntaje += int(resistencia_radio.value or 0)
+        puntaje += int(leucocitos_radio.value or 0)
+        puntaje += int(neutrofilos_radio.value or 0)
+        puntaje += int(pcr_radio.value or 0)
+
+        resultado_texto.value = f"Puntaje AIR: {puntaje}"
 
         if puntaje <= 4:
             interpretacion = "Apendicitis poco probable"
             interpretacion_texto.color = "green"
-        elif 5 <= puntaje <= 6:
-            interpretacion = "Probabilidad compatible, observar"
+        elif 5 <= puntaje <= 8:
+            interpretacion = "Probabilidad intermedia"
             interpretacion_texto.color = "orange"
-        elif 7 <= puntaje <= 8:
-            interpretacion = "Probabilidad alta de apendicitis"
-            interpretacion_texto.color = "red"
-        else:  # 9 o 10
-            interpretacion = "Apendicitis muy probable"
+        else:
+            interpretacion = "Alta probabilidad de apendicitis"
             interpretacion_texto.color = "red"
 
         interpretacion_texto.value = interpretacion
         resultado_texto.update()
         interpretacion_texto.update()
 
-    def construir_tabla(criterios, checkboxes):
+    resistencia_radio.on_change = calcular_air
+    leucocitos_radio.on_change = calcular_air
+    neutrofilos_radio.on_change = calcular_air
+    pcr_radio.on_change = calcular_air
+
+    def construir_tabla_simple():
         filas = []
-        for texto, valor in criterios:
-            chk = ft.Checkbox(value=False, on_change=calcular_alvarado)
+        for texto, valor in criterios_simple:
+            chk = ft.Checkbox(value=False, on_change=calcular_air)
             checkboxes.append((chk, valor))
-            fila = ft.Row(
-                controls=[
-                    ft.Container(ft.Text(texto, color=TEXT_COLOR), expand=True),
-                    ft.Container(ft.Text(f"{valor:+}", color=TEXT_COLOR), width=30, alignment=ft.alignment.center_right),
-                    ft.Container(chk, alignment=ft.alignment.center_right)
-                ],
-                alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
-                height=32,
+
+            filas.append(
+                ft.Row(
+                    controls=[
+                        ft.Text(texto, color=TEXT_COLOR, expand=True),
+                        ft.Text(f"+{valor}", color=TEXT_COLOR),
+                        chk
+                    ],
+                    alignment=ft.MainAxisAlignment.SPACE_BETWEEN
+                )
             )
-            filas.append(fila)
         return filas
 
     panel_ref = ft.Ref[ft.ExpansionPanel]()
-    panel_list_ref = ft.Ref[ft.ExpansionPanelList]()
 
     def on_expand_change(e):
         panel = panel_ref.current
-        is_expanded = panel.expanded
-        panel.bgcolor = SECONDARY_COLOR if is_expanded else PRIMARY_COLOR
-        panel.update()
-        if not is_expanded:
+        if not panel.expanded:
             for cb, _ in checkboxes:
                 cb.value = False
                 cb.update()
-            resultado_texto.value = "Puntaje de Alvarado: -"
+
+            resistencia_radio.value = None
+            leucocitos_radio.value = None
+            neutrofilos_radio.value = None
+            pcr_radio.value = None
+
+            resultado_texto.value = "Puntaje AIR: -"
             interpretacion_texto.value = ""
+
             resultado_texto.update()
             interpretacion_texto.update()
 
     return ft.ExpansionPanelList(
-        ref=panel_list_ref,
         on_change=on_expand_change,
-        expand_icon_color=TEXT_COLOR,
-        elevation=8,
-        divider_color=TEXT_COLOR,
         controls=[
             ft.ExpansionPanel(
                 ref=panel_ref,
                 header=ft.ListTile(
-                    title=ft.Text("Criterios de AIR", color=TEXT_COLOR),
-                    subtitle=ft.Text("Sospecha de apendicitis", size=SUBTITLE_SIZE, color=TEXT_COLOR)
+                    title=ft.Text("Criterios AIR", color=TEXT_COLOR),
+                    subtitle=ft.Text("Appendicitis Inflammatory Response", color=TEXT_COLOR)
                 ),
                 content=ft.Container(
+                    padding=ft.padding.symmetric(25, 45),
                     content=ft.Column(
+                        spacing=12,
                         controls=[
-                            *construir_tabla(criterios, checkboxes),
+                            *construir_tabla_simple(),
+
                             ft.Divider(),
-                            resultado_texto,
-                            interpretacion_texto,
-                        ],
-                        spacing=10,
-                        horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                    ),
-                    padding=ft.padding.symmetric(vertical=25, horizontal=45),
+
+                            ft.Text("Resistencia muscular", weight="bold"),
+                            resistencia_radio,
+
+                            ft.Text("Leucocitos", weight="bold"),
+                            leucocitos_radio,
+
+                            ft.Text("Neutrófilos", weight="bold"),
+                            neutrofilos_radio,
+
+                            ft.Text("Proteína C Reactiva (PCR)", weight="bold"),
+                            pcr_radio,
+
+                            ft.Divider(),
+
+                            ft.Container(
+                                alignment=ft.alignment.center,
+                                content=resultado_texto
+                            ),
+                            ft.Container(
+                                alignment=ft.alignment.center,
+                                content=interpretacion_texto
+                            ),
+                        ]
+                    )
                 ),
                 bgcolor=PRIMARY_COLOR,
                 expanded=False,
             )
         ]
     )
+
