@@ -517,6 +517,9 @@ def criterios_air():
 
     def on_expand_change(e):
         panel = panel_ref.current
+        is_expanded = panel.expanded
+        panel.bgcolor = SECONDARY_COLOR if is_expanded else PRIMARY_COLOR
+        panel.update()
         if not panel.expanded:
             for cb, _ in checkboxes:
                 cb.value = False
