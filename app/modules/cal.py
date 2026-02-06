@@ -163,5 +163,10 @@ calculadoras = [
             "titulo": "AIR Score apendicitis",
             "tags": ["cirugia", "apendicitis"],
             "componente": criterios_air()
+        },
+        {
+            "titulo": "PAS Score apendicitis",
+            "tags": ["cirugia", "apendicitis", "pediatria"],
+            "componente": criterios_pas()
         }
     ]
