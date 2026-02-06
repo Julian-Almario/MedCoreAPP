@@ -153,5 +153,10 @@ calculadoras = [
             "titulo": "tg18 colangitis",
             "tags": ["cirugia", "colangitis"],
             "componente": tg18_colangitis()
+        },
+        {
+            "titulo": "tg18 colecistitis",
+            "tags": ["cirugia", "colecistitis"],
+            "componente": tg18_colecistitis()
         }
     ]
