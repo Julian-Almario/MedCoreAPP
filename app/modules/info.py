@@ -8,7 +8,7 @@ def info_page(page: ft.Page):
     creador_info = ft.Column(
         controls=[
             ft.Text("Created by Julian Almario Loaiza", size=18),
-            ft.Text("Versión: 1.0.3 (Febrero 2026)", size=14, color=ft.Colors.OUTLINE),
+            ft.Text("Versión: 1.2.3 (Febrero 2026)", size=14, color=ft.Colors.OUTLINE),
         ],
         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
     )
