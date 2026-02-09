@@ -2,7 +2,7 @@ import os
 import flet as ft
 import re
 
-RUTA_NOTAS = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "storage", "data", "notas"))
+RUTA_NOTAS = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "notas"))
 os.makedirs(RUTA_NOTAS, exist_ok=True)
 
 def listar_notas():
@@ -240,8 +240,6 @@ def pantalla_home(page: ft.Page):
                 ),
                 ft.Text(pretty_title(nombre_md), size=22),
                 ft.Container(expand=True),
-                ft.IconButton(ft.Icons.EDIT, tooltip="Editar", on_click=lambda e, a=nombre_md: open_note_editor(page, filename=a)),
-                ft.IconButton(ft.Icons.DELETE, tooltip="Eliminar", on_click=lambda e, a=nombre_md: confirm_delete_note(page, filename=a), icon_color=ft.Colors.RED_700),
             ], alignment=ft.MainAxisAlignment.START),
             ft.Container(
                 ft.Markdown(
@@ -257,15 +255,9 @@ def pantalla_home(page: ft.Page):
         ])
         actualizar_layout()
 
-    btn_new_nota = ft.IconButton(
-        icon=ft.Icons.ADD,
-        tooltip="Nueva nota",
-        on_click=lambda e: open_note_editor(page, filename=None),
-    )
-
     barra_superior = ft.Container(
         content=ft.Row(
-            controls=[search_bar, btn_new_nota],
+            controls=[search_bar],
             alignment=ft.MainAxisAlignment.CENTER,
         ),
         padding=ft.padding.symmetric(horizontal=40, vertical=10),

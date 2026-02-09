@@ -3,6 +3,7 @@ import os
 import json
 from modules.cal import *
 from modules.info import *
+from modules.home import *
 
 def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
@@ -477,6 +478,10 @@ def main(page: ft.Page):
                 label="Calculadoras"
             ),
             ft.NavigationBarDestination(
+                icon=ft.Icons.BOOK,
+                label="Algoritmos y guias"
+            ),
+            ft.NavigationBarDestination(
                 icon=ft.Icons.LOCAL_PHARMACY_OUTLINED,
                 label="Medicamentos"
             ),
@@ -493,8 +498,11 @@ def main(page: ft.Page):
         if current_page_index == 0:
             show_cals()
         elif current_page_index == 1:
-            show_meds()
+            main_content.controls.clear()
+            main_content.controls.append(pantalla_home(page))
         elif current_page_index == 2:
+            show_meds()
+        elif current_page_index == 3:
             show_info()
 
     load_current_page()
