@@ -275,17 +275,6 @@
     "tags": ["antiemético", "gastrocinético", "dopamina", "náuseas", "gastroparesia"]
   },
   {
-    "nombre": "Nistatina",
-    "mecanismo": "Antifúngico poliénico que se une a los esteroles de la membrana celular del hongo (principalmente ergosterol), causando pérdida de integridad y muerte celular.",
-    "indicaciones": "• Candidiasis oral (muguet)\n• Candidiasis cutánea o mucocutánea\n• Profilaxis en pacientes inmunosuprimidos",
-    "dosis": "• Adultos: 100,000–500,000 UI por vía oral 4 veces al día (suspensión). Tópico: aplicar 2–3 veces al día.\n• Niños: 100,000 UI cada 6 h.",
-    "contraindicaciones": "• Hipersensibilidad al fármaco\n• No debe usarse en infecciones sistémicas por hongos",
-    "observaciones": "• No se absorbe por vía oral, actúa localmente en la boca o tubo digestivo.\n• Seguro en embarazadas y lactantes.",
-    "interacciones": "• No se han descrito interacciones clínicas significativas.",
-    "toxicidad": "• Muy bien tolerada.\n• Ocasionalmente náuseas, vómitos o irritación local.",
-    "tags": ["antifúngico", "candidiasis", "tópico", "oral", "muguet"]
-  },
-  {
     "nombre": "Gentamicina",
     "mecanismo": "Aminoglucósido que inhibe la síntesis de proteínas bacterianas al unirse irreversiblemente a la subunidad 30S del ribosoma. Es bactericida, activo contra gramnegativos aerobios.",
     "indicaciones": "• Infecciones graves por gramnegativos\n• Septicemia\n• Endocarditis (en combinación)\n• Infecciones urinarias complicadas\n• Infecciones intraabdominales",
@@ -374,17 +363,6 @@
     "tags": ["anestésico", "antiarrítmico", "sodio", "topico", "IV"]
   },
   {
-    "nombre": "Insulina",
-    "mecanismo": "Hormona peptídica que promueve la captación de glucosa por tejidos sensibles (músculo, adiposo), inhibe la gluconeogénesis y glucogenólisis hepática. Regula el metabolismo de carbohidratos, lípidos y proteínas.",
-    "indicaciones": "• Diabetes mellitus tipo 1 y tipo 2\n• Cetoacidosis diabética\n• Hiperglucemia intra-hospitalaria\n• Hiperkalemia (temporalmente)",
-    "dosis": "• Individualizada según tipo de insulina y paciente.\n• Insulina rápida: 0.1–0.2 UI/kg antes de comidas.\n• Basal: 0.2–0.5 UI/kg/día, dividida entre insulina basal y prandial.",
-    "contraindicaciones": "• Hipoglucemia\n• Hipersensibilidad a insulina humana o componentes",
-    "observaciones": "• Diferentes tipos según duración (rápida, intermedia, prolongada).\n• Requiere educación para uso correcto y ajuste de dosis.",
-    "interacciones": "• Aumenta efecto con beta bloqueadores, alcohol, IECA.\n• Disminuye efecto con corticosteroides, tiazidas.",
-    "toxicidad": "• Hipoglucemia: sudoración, temblor, confusión, coma.\n• Tratamiento: glucosa oral o IV, glucagón IM.",
-    "tags": ["hormona", "diabetes", "hipoglucemia", "glucosa", "metabolismo"]
-  },
-    {
     "nombre": "Azitromicina",
     "mecanismo": "Antibiótico macrólido que inhibe la síntesis de proteínas bacterianas al unirse a la subunidad 50S ribosomal. Tiene acción bacteriostática y buena penetración tisular.",
     "indicaciones": "• Infecciones respiratorias altas y bajas (faringitis, bronquitis, neumonía atípica)\n• Infecciones de transmisión sexual (clamidia, gonorrea no complicada)\n• Otitis media\n• Infecciones cutáneas leves",
@@ -451,17 +429,6 @@
     "tags": ["antibiótico", "carbapenémico", "sepsis", "nosocomial", "intraabdominal"]
   },
   {
-    "nombre": "Linezolid",
-    "mecanismo": "Inhibe la síntesis proteica bacteriana uniéndose al sitio 23S del ARN ribosomal 50S, evitando la formación del complejo de iniciación. Activo frente a grampositivos resistentes.",
-    "indicaciones": "• Neumonía por MRSA o enterococos resistentes a vancomicina (VRE)\n• Infecciones cutáneas complicadas\n• Sepsis por grampositivos multirresistentes",
-    "dosis": "• Adultos: 600 mg VO o IV cada 12 h.\n• Niños: 10 mg/kg cada 8 h (máx: 600 mg/dosis).",
-    "contraindicaciones": "• Hipersensibilidad\n• Uso concomitante con IMAO o antidepresivos ISRS (riesgo de síndrome serotoninérgico)",
-    "observaciones": "• Excelente biodisponibilidad oral (~100%).\n• Requiere vigilancia hematológica si se usa >14 días.",
-    "interacciones": "• Riesgo de síndrome serotoninérgico con antidepresivos.\n• Potencia efecto de simpaticomiméticos.",
-    "toxicidad": "• Mielosupresión, trombocitopenia.\n• Neuropatía óptica con uso prolongado.",
-    "tags": ["antibiótico", "oxazolidinona", "MRSA", "VRE", "grampositivo"]
-  },
-  {
     "nombre": "Piperacilina/Tazobactam",
     "mecanismo": "Combinación de penicilina semisintética (piperacilina) y un inhibidor de betalactamasas (tazobactam), que amplía el espectro frente a bacterias productoras de betalactamasas.",
     "indicaciones": "• Infecciones intraabdominales y pélvicas\n• Neumonía nosocomial\n• Sepsis\n• Infecciones por Pseudomonas aeruginosa",
@@ -473,28 +440,6 @@
     "tags": ["antibiótico", "penicilina", "betalactamasa", "Pseudomonas", "sepsis"]
   },
   {
-    "nombre": "Tigeciclina",
-    "mecanismo": "Antibiótico glicilciclina que se une a la subunidad 30S ribosomal, impidiendo la síntesis proteica. Derivado de la minociclina, activa frente a bacterias resistentes.",
-    "indicaciones": "• Infecciones intraabdominales complicadas\n• Infecciones cutáneas complicadas\n• Neumonía adquirida en el hospital",
-    "dosis": "• Adultos: dosis inicial 100 mg IV, luego 50 mg IV cada 12 h.\n• Niños: 1.2 mg/kg IV cada 12 h (máx: 50 mg).",
-    "contraindicaciones": "• Hipersensibilidad a tetraciclinas.\n• Embarazo y lactancia.",
-    "observaciones": "• Amplio espectro, incluyendo MRSA, VRE y Enterobacterias resistentes.\n• No cubre Pseudomonas ni Proteus.",
-    "interacciones": "• Potencia efecto de anticoagulantes.\n• Riesgo de náuseas con antieméticos.",
-    "toxicidad": "• Náuseas, vómitos y aumento de enzimas hepáticas.\n• Riesgo de mortalidad ligeramente mayor en infecciones graves (usar con precaución).",
-    "tags": ["antibiótico", "glicilciclina", "resistente", "hospitalario", "intraabdominal"]
-  },
-  {
-    "nombre": "Colistina (Polimixina E)",
-    "mecanismo": "Antibiótico polipeptídico que altera la membrana celular de bacterias gramnegativas al interactuar con sus fosfolípidos, causando pérdida de integridad y muerte celular.",
-    "indicaciones": "• Infecciones graves por gramnegativos multirresistentes (Pseudomonas, Acinetobacter, Klebsiella)\n• Neumonía asociada a ventilador\n• Sepsis",
-    "dosis": "• Adultos: dosis de carga 9 millones UI IV, luego 4.5 millones UI cada 12 h.\n• Niños: 50,000 UI/kg IV cada 12 h.",
-    "contraindicaciones": "• Hipersensibilidad a polimixinas.\n• Precaución en insuficiencia renal y neuromuscular.",
-    "observaciones": "• Considerado antibiótico de último recurso.\n• Monitorear función renal estrechamente.",
-    "interacciones": "• Riesgo de nefrotoxicidad con aminoglucósidos o AINEs.\n• Potencia bloqueo neuromuscular con relajantes musculares.",
-    "toxicidad": "• Nefrotoxicidad y neurotoxicidad (parestesias, vértigo).\n• Broncoespasmo con inhalación.",
-    "tags": ["antibiótico", "polimixina", "gramnegativo", "resistente", "hospitalario"]
-  },
-    {
     "nombre": "Metronidazol",
     "mecanismo": "Antibiótico y antiprotozoario que, una vez reducido dentro de las células anaerobias, forma radicales libres que dañan el ADN bacteriano. Activo frente a bacterias anaerobias y protozoos.",
     "indicaciones": "• Infecciones por anaerobios (abscesos, peritonitis)\n• Vaginosis bacteriana\n• Tricomoniasis\n• Amebiasis intestinal y hepática\n• Colitis por Clostridium difficile",
@@ -515,28 +460,6 @@
     "interacciones": "• Potente inductor del CYP450 (disminuye eficacia de anticonceptivos, warfarina, antirretrovirales).",
     "toxicidad": "• Hepatotoxicidad, síndrome pseudogripal, trombocitopenia.",
     "tags": ["antibiótico", "tuberculosis", "micobacteria", "inductor enzimático", "profilaxis"]
-  },
-  {
-    "nombre": "Trimetoprima/Sulfametoxazol",
-    "mecanismo": "Combinación sinérgica que bloquea dos pasos consecutivos en la síntesis del ácido fólico bacteriano: la sulfametoxazol inhibe la dihidropteroato sintetasa y la trimetoprima inhibe la dihidrofolato reductasa.",
-    "indicaciones": "• Infecciones urinarias\n• Bronquitis y neumonía por Pneumocystis jirovecii\n• Infecciones gastrointestinales (Shigella, Salmonella)\n• Toxoplasmosis\n• Otitis y sinusitis bacteriana",
-    "dosis": "• Adultos: 160/800 mg VO cada 12 h.\n• Niños: 8/40 mg/kg/día en 2 dosis divididas.",
-    "contraindicaciones": "• Hipersensibilidad a sulfas\n• Embarazo y lactancia\n• Deficiencia de G6PD\n• Insuficiencia renal o hepática grave",
-    "observaciones": "• Amplio espectro, buena biodisponibilidad oral.\n• Hidratar adecuadamente para evitar cristaluria.",
-    "interacciones": "• Potencia efecto de anticoagulantes y antidiabéticos orales.\n• Riesgo de hiperpotasemia con IECAs o ARA-II.",
-    "toxicidad": "• Rash cutáneo, leucopenia, hiperpotasemia.\n• Raro: síndrome de Stevens-Johnson.",
-    "tags": ["antibiótico", "sulfa", "folato", "urinario", "neumonía"]
-  },
-   {
-    "nombre": "Atenolol",
-    "mecanismo": "Betabloqueador selectivo de los receptores β1-adrenérgicos que reduce la frecuencia cardíaca, el gasto cardíaco y la presión arterial. Disminuye el consumo de oxígeno miocárdico.",
-    "indicaciones": "• Hipertensión arterial\n• Angina de pecho\n• Arritmias supraventriculares\n• Prevención postinfarto de miocardio",
-    "dosis": "• Adultos: 25–100 mg por vía oral una vez al día.\n• Dosis inicial: 25–50 mg/día, ajustar según respuesta.",
-    "contraindicaciones": "• Bradicardia sinusal\n• Bloqueo AV de segundo o tercer grado\n• Insuficiencia cardíaca descompensada\n• Asma o EPOC grave",
-    "observaciones": "• Betabloqueador cardioselectivo (menor riesgo broncoconstrictor).\n• No suspender abruptamente para evitar taquicardia de rebote.",
-    "interacciones": "• Potencia bradicardia con digoxina o verapamilo.\n• Disminuye efecto de insulina y puede enmascarar hipoglucemia.",
-    "toxicidad": "• Bradicardia, hipotensión, fatiga, insomnio.\n• Raro: broncoespasmo, depresión.",
-    "tags": ["betabloqueador", "antihipertensivo", "angina", "postinfarto", "β1-selectivo"]
   },
   {
     "nombre": "Propranolol",
@@ -570,61 +493,6 @@
     "interacciones": "• Aumenta niveles de digoxina y ciclosporina.\n• Potencia bradicardia con betabloqueadores.",
     "toxicidad": "• Bradicardia, hipotensión, estreñimiento.",
     "tags": ["calcioantagonista", "antiarrítmico", "angina", "hipertensión", "miocardio"]
-  },
-  {
-    "nombre": "Amiodarona",
-    "mecanismo": "Antiarrítmico clase III que prolonga la repolarización al bloquear los canales de potasio. También posee propiedades de las clases I, II y IV, estabilizando la membrana cardíaca.",
-    "indicaciones": "• Arritmias ventriculares\n• Fibrilación auricular\n• Taquicardia supraventricular",
-    "dosis": "• Carga: 800–1600 mg/día por 1–3 semanas.\n• Mantenimiento: 200–400 mg/día.",
-    "contraindicaciones": "• Bradicardia severa\n• Bloqueo AV\n• Disfunción tiroidea\n• Hipersensibilidad al yodo",
-    "observaciones": "• Vida media larga (≈40–60 días).\n• Controlar función tiroidea, hepática y pulmonar periódicamente.",
-    "interacciones": "• Aumenta niveles de warfarina, digoxina y estatinas.\n• Riesgo de prolongación del QT con otros antiarrítmicos.",
-    "toxicidad": "• Fibrosis pulmonar, alteraciones tiroideas, fotosensibilidad, hepatotoxicidad.",
-    "tags": ["antiarrítmico", "clase III", "fibrilación auricular", "tiroides", "QT"]
-  },
-  {
-    "nombre": "Digoxina",
-    "mecanismo": "Inhibe la bomba Na+/K+ ATPasa, aumentando el calcio intracelular y mejorando la contractilidad cardíaca (efecto inotrópico positivo). Disminuye la conducción AV.",
-    "indicaciones": "• Insuficiencia cardíaca con disfunción sistólica\n• Fibrilación auricular con respuesta ventricular rápida",
-    "dosis": "• Dosis de carga: 0.5–1 mg VO/IV fraccionado.\n• Mantenimiento: 0.125–0.25 mg/día.",
-    "contraindicaciones": "• Bloqueo AV avanzado\n• Bradicardia sinusal\n• Hipokalemia\n• Insuficiencia renal severa (ajustar dosis)",
-    "observaciones": "• Monitorear niveles plasmáticos (0.5–2 ng/mL).\n• Controlar potasio sérico para evitar toxicidad.",
-    "interacciones": "• Riesgo de toxicidad con diuréticos (hipokalemia).\n• Incrementa niveles con verapamilo, amiodarona y macrólidos.",
-    "toxicidad": "• Náuseas, visión amarilla (xantopsia), arritmias ventriculares.\n• Antídoto: fragmentos Fab antidigoxina.",
-    "tags": ["inotrópico", "glucósido cardíaco", "insuficiencia cardíaca", "antiarrítmico", "AV"]
-  },
-  {
-    "nombre": "Warfarina",
-    "mecanismo": "Anticoagulante oral que inhibe la epóxido reductasa dependiente de vitamina K, reduciendo la síntesis de los factores II, VII, IX y X de la coagulación.",
-    "indicaciones": "• Profilaxis y tratamiento de trombosis venosa profunda\n• Fibrilación auricular\n• Prótesis valvulares mecánicas",
-    "dosis": "• Adultos: 2–10 mg/día VO ajustado según INR (meta: 2–3).",
-    "contraindicaciones": "• Embarazo (teratogénico)\n• Sangrado activo\n• Cirugía mayor reciente\n• Hipersensibilidad",
-    "observaciones": "• Monitorear INR regularmente.\n• Mantener dieta estable en vitamina K.",
-    "interacciones": "• Potenciada por antibióticos, AINEs, amiodarona.\n• Antagonizada por vitamina K, barbitúricos, rifampicina.",
-    "toxicidad": "• Hemorragia, necrosis cutánea.\n• Antídoto: vitamina K o plasma fresco congelado.",
-    "tags": ["anticoagulante", "vitamina K", "trombosis", "INR", "fibrilación auricular"]
-  },
-  {
-    "nombre": "Atorvastatina",
-    "mecanismo": "Inhibidor competitivo de la HMG-CoA reductasa, enzima clave en la síntesis de colesterol hepático. Aumenta la expresión de receptores de LDL, reduciendo su concentración plasmática.",
-    "indicaciones": "• Hipercolesterolemia\n• Dislipidemia mixta\n• Prevención primaria y secundaria de enfermedad cardiovascular",
-    "dosis": "• Adultos: 10–80 mg VO una vez al día, con o sin alimentos.",
-    "contraindicaciones": "• Enfermedad hepática activa\n• Embarazo y lactancia\n• Hipersensibilidad",
-    "observaciones": "• Controlar transaminasas periódicamente.\n• Dieta hipolipemiante complementaria recomendada.",
-    "interacciones": "• Aumenta riesgo de miopatía con fibratos o inhibidores de CYP3A4 (eritromicina, jugo de toronja).",
-    "toxicidad": "• Mialgias, elevación de transaminasas, rara vez rabdomiólisis.",
-    "tags": ["estatinas", "colesterol", "LDL", "dislipidemia", "cardioprotector"]
-  },
-  {
-    "nombre": "Clopidogrel",
-    "mecanismo": "Inhibidor irreversible del receptor P2Y12 de ADP en las plaquetas, bloqueando la activación del complejo GPIIb/IIIa y la agregación plaquetaria.",
-    "indicaciones": "• Prevención de eventos trombóticos en síndrome coronario agudo\n• Accidente cerebrovascular isquémico\n• Enfermedad arterial periférica",
-    "dosis": "• Adultos: dosis de carga 300 mg, luego 75 mg/día VO.",
-    "contraindicaciones": "• Hemorragia activa\n• Hipersensibilidad\n• Insuficiencia hepática grave",
-    "observaciones": "• Pro-fármaco activado por CYP2C19.\n• Menor riesgo de sangrado gastrointestinal que aspirina.",
-    "interacciones": "• Omeprazol y otros inhibidores de CYP2C19 reducen su eficacia.\n• Riesgo aumentado de sangrado con AINEs o anticoagulantes.",
-    "toxicidad": "• Sangrado, púrpura trombocitopénica trombótica (raro).",
-    "tags": ["antiagregante", "P2Y12", "trombosis", "cardiovascular", "ACV"]
   },
   {
     "nombre": "Furosemida (IV)",
@@ -681,7 +549,7 @@
     "toxicidad": "• Cefalea, hipotensión, taquicardia refleja.\n• Raro: metahemoglobinemia.",
     "tags": ["nitrato", "antianginoso", "vasodilatador", "isquemia", "infarto"]
   },
-    {
+  {
     "nombre": "Apixabán",
     "mecanismo": "Anticoagulante oral directo que inhibe de forma reversible y selectiva el factor Xa, impidiendo la conversión de protrombina en trombina y la formación de coágulos.",
     "indicaciones": "• Prevención de accidente cerebrovascular en fibrilación auricular no valvular\n• Tromboembolismo venoso (profilaxis y tratamiento)\n• Prevención postoperatoria tras cirugía ortopédica mayor",
@@ -693,83 +561,6 @@
     "tags": ["anticoagulante", "factor Xa", "fibrilación auricular", "Trombosis", "profilaxis"]
   },
   {
-    "nombre": "Rivaroxabán",
-    "mecanismo": "Inhibidor directo del factor Xa que bloquea la generación de trombina y la formación de fibrina. Actúa de forma predecible y no requiere control de laboratorio rutinario.",
-    "indicaciones": "• Prevención y tratamiento de trombosis venosa profunda y embolia pulmonar\n• Prevención de ictus en fibrilación auricular no valvular\n• Prevención secundaria post-síndrome coronario agudo",
-    "dosis": "• Adultos: 10–20 mg VO una vez al día según indicación.",
-    "contraindicaciones": "• Sangrado activo\n• Insuficiencia hepática severa\n• Embarazo o lactancia",
-    "observaciones": "• Administrar con alimentos para mejorar absorción.\n• Efecto rápido (2–4 h) y vida media corta (~9 h).",
-    "interacciones": "• Potenciado por inhibidores de CYP3A4 y P-gp.\n• Evitar combinación con otros anticoagulantes.",
-    "toxicidad": "• Hemorragia, mareos, anemia.\n• Antídoto: andexanet alfa o carbón activado si ingestión reciente.",
-    "tags": ["anticoagulante", "factor Xa", "fibrilación auricular", "trombosis", "oral"]
-  },
-  {
-    "nombre": "Dabigatrán",
-    "mecanismo": "Anticoagulante oral directo que inhibe de forma competitiva la trombina (factor IIa), previniendo la conversión de fibrinógeno en fibrina.",
-    "indicaciones": "• Prevención de ictus en fibrilación auricular no valvular\n• Prevención y tratamiento de trombosis venosa profunda y embolia pulmonar",
-    "dosis": "• Adultos: 150 mg VO cada 12 h.\n• En insuficiencia renal moderada: 110 mg cada 12 h.",
-    "contraindicaciones": "• Insuficiencia renal severa (TFG <30 ml/min)\n• Sangrado activo\n• Uso concomitante con rifampicina",
-    "observaciones": "• Cápsulas deben tragarse enteras (sensible a humedad).\n• No requiere control de INR.",
-    "interacciones": "• Potenciado por inhibidores de P-gp (amiodarona, verapamilo).\n• Antagonizado por inductores de P-gp (rifampicina).",
-    "toxicidad": "• Hemorragias, dispepsia.\n• Antídoto: idarucizumab.",
-    "tags": ["anticoagulante", "trombina", "fibrilación auricular", "Trombosis", "oral"]
-  },
-  {
-    "nombre": "Ticagrelor",
-    "mecanismo": "Inhibidor reversible del receptor plaquetario P2Y12 de ADP, que impide la activación plaquetaria y la agregación. No requiere activación metabólica.",
-    "indicaciones": "• Síndrome coronario agudo\n• Prevención secundaria tras infarto de miocardio o angioplastia con stent",
-    "dosis": "• Dosis de carga: 180 mg VO, luego 90 mg cada 12 h.",
-    "contraindicaciones": "• Sangrado activo\n• Historia de hemorragia intracraneal\n• Insuficiencia hepática grave",
-    "observaciones": "• Más rápido y potente que clopidogrel.\n• Asociar con aspirina (doble antiagregación).",
-    "interacciones": "• Metabolismo por CYP3A4: evitar con ketoconazol o rifampicina.\n• Potencia riesgo de sangrado con AINEs o anticoagulantes.",
-    "toxicidad": "• Disnea leve transitoria, hemorragia, bradicardia.",
-    "tags": ["antiagregante", "P2Y12", "síndrome coronario", "stent", "infarto"]
-  },
-  {
-    "nombre": "Clonazepam",
-    "mecanismo": "Benzodiacepina de acción prolongada que potencia el efecto inhibidor del GABA sobre el sistema nervioso central.",
-    "indicaciones": "• Crisis epClonailépticas (ausencias, mioclonías)\n• Trastornos de ansiedad y pánico\n• Síndrome de piernas inquietas",
-    "dosis": "• Adultos: iniciar con 0.5 mg VO cada 12 h, aumentar gradualmente hasta 1–4 mg/día.\n• Niños: 0.01–0.03 mg/kg/día en 2–3 dosis.",
-    "contraindicaciones": "• Insuficiencia hepática severa\n• Glaucoma de ángulo cerrado\n• Miastenia gravis",
-    "observaciones": "• Evitar suspensión brusca (riesgo de convulsiones).\n• Puede causar tolerancia con uso prolongado.",
-    "interacciones": "• Potencia efectos de depresores del SNC.\n• Metabolizado por CYP3A4.",
-    "toxicidad": "• Somnolencia, mareo, alteración de la coordinación, dependencia.",
-    "tags": ["benzodiacepina", "anticonvulsivo", "ansiolítico", "pánico", "mioclonía"]
-  },
-  {
-    "nombre": "Sertralina",
-    "mecanismo": "Inhibidor selectivo de la recaptura de serotonina (ISRS) que aumenta los niveles sinápticos de serotonina, mejorando el estado de ánimo y reduciendo la ansiedad.",
-    "indicaciones": "• Depresión mayor\n• Trastorno de ansiedad generalizada\n• Trastorno obsesivo-compulsivo\n• Estrés postraumático y pánico",
-    "dosis": "• Adultos: 50–200 mg VO una vez al día.\n• Niños (TOC): iniciar con 25 mg/día, ajustar según respuesta.",
-    "contraindicaciones": "• Uso concomitante con IMAO o linezolid\n• Hipersensibilidad al fármaco",
-    "observaciones": "• Inicio de acción: 2–4 semanas.\n• Menor riesgo de sedación o aumento de peso que otros ISRS.",
-    "interacciones": "• Riesgo de síndrome serotoninérgico con triptanos, tramadol o IMAO.\n• Inhibidor moderado de CYP2D6.",
-    "toxicidad": "• Náuseas, insomnio, disfunción sexual, ansiedad inicial.",
-    "tags": ["antidepresivo", "ISRS", "ansiedad", "TOC", "depresión"]
-  },
-  {
-    "nombre": "Fluoxetina",
-    "mecanismo": "ISRS que inhibe selectivamente la recaptura de serotonina, incrementando su concentración sináptica y mejorando el ánimo.",
-    "indicaciones": "• Depresión\n• Bulimia nerviosa\n• TOC\n• Trastorno disfórico premenstrual",
-    "dosis": "• Adultos: 20–80 mg VO/día.\n• Niños (TOC): 10–20 mg/día.",
-    "contraindicaciones": "• Uso con IMAO o tioridazina\n• Epilepsia no controlada",
-    "observaciones": "• Vida media larga (4–6 días), útil en adherencia irregular.\n• Puede causar activación inicial (insomnio).",
-    "interacciones": "• Potencia riesgo de síndrome serotoninérgico con otros serotoninérgicos.\n• Inhibidor potente de CYP2D6.",
-    "toxicidad": "• Ansiedad, insomnio, disfunción sexual, pérdida de peso.",
-    "tags": ["antidepresivo", "ISRS", "TOC", "bulimia", "serotonina"]
-  },
-  {
-    "nombre": "Quetiapina",
-    "mecanismo": "Antipsicótico atípico que bloquea receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A, con menor riesgo de efectos extrapiramidales.",
-    "indicaciones": "• Esquizofrenia\n• Trastorno bipolar (episodios maníacos y depresivos)\n• Depresión mayor resistente (adjunto)",
-    "dosis": "• Adultos: 50–800 mg VO/día en una o dos dosis.",
-    "contraindicaciones": "• Hipersensibilidad\n• Uso concomitante con depresores del SNC\n• Hipotensión ortostática severa",
-    "observaciones": "• Efecto sedante útil en insomnio asociado a trastornos psiquiátricos.\n• Bajo riesgo de síntomas extrapiramidales.",
-    "interacciones": "• Potenciada sedación con alcohol o benzodiacepinas.\n• Metabolismo hepático por CYP3A4.",
-    "toxicidad": "• Sedación, aumento de peso, hipotensión, dislipidemia.",
-    "tags": ["antipsicótico", "atípico", "bipolar", "depresión", "dopamina"]
-  },
-  {
     "nombre": "Haloperidol",
     "mecanismo": "Antipsicótico típico que bloquea fuertemente los receptores dopaminérgicos D2 en el sistema mesolímbico, reduciendo síntomas psicóticos positivos.",
     "indicaciones": "• Esquizofrenia\n• Psicosis aguda\n• Delirium\n• Tics y síndrome de Tourette",
@@ -779,50 +570,6 @@
     "interacciones": "• Potencia sedación con otros depresores del SNC.\n• Riesgo de prolongación del QT con antiarrítmicos o macrólidos.",
     "toxicidad": "• Distonías agudas, rigidez, discinesia tardía, hiperprolactinemia.",
     "tags": ["antipsicótico", "típico", "esquizofrenia", "delirium", "dopamina"]
-  },
-  {
-    "nombre": "Valproato de sodio",
-    "mecanismo": "Aumenta los niveles de GABA al inhibir su degradación y bloquear los canales de sodio y calcio, estabilizando la actividad neuronal.",
-    "indicaciones": "• Epilepsia generalizada o parcial\n• Trastorno bipolar\n• Migraña (profilaxis)",
-    "dosis": "• Adultos: 10–15 mg/kg/día VO, ajustar hasta 60 mg/kg/día.\n• IV: 15–45 mg/kg/día en casos severos.",
-    "contraindicaciones": "• Enfermedad hepática\n• Embarazo (teratogénico)\n• Trastornos del ciclo de la urea",
-    "observaciones": "• Controlar enzimas hepáticas y amonio.\n• Evitar en mujeres en edad fértil si hay alternativas.",
-    "interacciones": "• Aumenta niveles de lamotrigina y fenitoína.\n• Riesgo de hepatotoxicidad con otros anticonvulsivos.",
-    "toxicidad": "• Náuseas, aumento de peso, alopecia, temblores, hepatotoxicidad.",
-    "tags": ["antiepiléptico", "bipolar", "migraña", "GABA", "hepatotoxicidad"]
-  },
-    {
-    "nombre": "Sertralina",
-    "mecanismo": "Inhibidor selectivo de la recaptación de serotonina (ISRS). Aumenta la disponibilidad sináptica de serotonina en el sistema nervioso central al bloquear su recaptación presináptica.",
-    "indicaciones": "• Trastorno depresivo mayor\n• Trastorno de ansiedad generalizada\n• Trastorno obsesivo-compulsivo (TOC)\n• Trastorno de pánico\n• Trastorno por estrés postraumático (TEPT)",
-    "dosis": "• Adultos: iniciar con 50 mg/día; ajustar gradualmente hasta 200 mg/día según respuesta.\n• Ancianos o ansiedad: iniciar con 25 mg/día.",
-    "contraindicaciones": "• Uso concomitante con IMAO o pimozida\n• Hipersensibilidad al fármaco",
-    "observaciones": "• Inicio de efecto clínico: 2–4 semanas.\n• Puede causar disfunción sexual, insomnio o náuseas.\n• Retirar gradualmente para evitar síndrome de discontinuación.",
-    "interacciones": "• Riesgo de síndrome serotoninérgico con otros serotoninérgicos (triptanos, tramadol, ISRS, IMAO).\n• Inhibe moderadamente CYP2D6.",
-    "toxicidad": "• Náuseas, insomnio, ansiedad inicial, disfunción sexual.\n• Rara vez: síndrome serotoninérgico, hiponatremia.",
-    "tags": ["ISRS", "antidepresivo", "ansiedad", "TOC", "serotonina"]
-  },
-  {
-    "nombre": "Escitalopram",
-    "mecanismo": "ISRS de alta selectividad por el transportador de serotonina, con mínima afinidad por otros receptores.",
-    "indicaciones": "• Depresión mayor\n• Trastorno de ansiedad generalizada",
-    "dosis": "• Adultos: 10 mg/día; puede aumentarse hasta 20 mg/día.\n• Ancianos: 5–10 mg/día.",
-    "contraindicaciones": "• Uso concomitante con IMAO\n• Síndrome de QT largo congénito",
-    "observaciones": "• Mejor tolerado entre los ISRS.\n• Bajo riesgo de interacciones farmacológicas.",
-    "interacciones": "• Riesgo de síndrome serotoninérgico con otros ISRS o IMAO.\n• Prolongación del QT con antiarrítmicos o macrólidos.",
-    "toxicidad": "• Náuseas, somnolencia, disfunción sexual, prolongación del QT.",
-    "tags": ["ISRS", "antidepresivo", "ansiedad", "serotonina", "QT"]
-  },
-  {
-    "nombre": "Venlafaxina",
-    "mecanismo": "Inhibidor de la recaptación de serotonina y noradrenalina (IRSN). A dosis bajas actúa principalmente sobre serotonina; a dosis altas también sobre noradrenalina y dopamina.",
-    "indicaciones": "• Depresión mayor\n• Trastorno de ansiedad generalizada\n• Trastorno de pánico\n• Trastorno de ansiedad social",
-    "dosis": "• Adultos: iniciar con 75 mg/día; ajustar hasta 225 mg/día según respuesta.",
-    "contraindicaciones": "• Uso concomitante con IMAO\n• Hipersensibilidad",
-    "observaciones": "• Puede elevar la presión arterial a dosis altas.\n• Retiro gradual para evitar síntomas de abstinencia.",
-    "interacciones": "• Riesgo de síndrome serotoninérgico con otros serotoninérgicos.\n• Potencia efecto de anticoagulantes.",
-    "toxicidad": "• Náuseas, insomnio, hipertensión, disfunción sexual.\n• En sobredosis: taquicardia, hipertensión, convulsiones.",
-    "tags": ["IRSN", "antidepresivo", "ansiedad", "noradrenalina", "serotonina"]
   },
   {
     "nombre": "Quetiapina",
@@ -924,50 +671,6 @@
     "tags": ["antídoto", "acetaminofén", "hepatoprotector", "glutatión", "toxicología"]
   },
   {
-    "nombre": "Atropina",
-    "mecanismo": "Antagonista competitivo de los receptores muscarínicos. Bloquea los efectos de la acetilcolina en el sistema parasimpático.",
-    "indicaciones": "• Intoxicación por organofosforados o carbamatos (insecticidas, gases nerviosos)\n• Bradicardia severa sintomática",
-    "dosis": "• Intoxicación por organofosforados: 1–6 mg IV cada 5–10 min hasta atropinización (midriasis, taquicardia, piel seca).",
-    "contraindicaciones": "• Glaucoma de ángulo cerrado\n• Taquiarritmias\n• Hipersensibilidad",
-    "observaciones": "• Administrar junto con pralidoxima en intoxicaciones colinérgicas.",
-    "interacciones": "• Potenciada con otros anticolinérgicos.",
-    "toxicidad": "• Visión borrosa, boca seca, taquicardia, confusión, fiebre.",
-    "tags": ["antídoto", "organofosforados", "anticolinérgico", "bradicardia", "toxicología"]
-  },
-  {
-    "nombre": "Pralidoxima (2-PAM)",
-    "mecanismo": "Reactiva la acetilcolinesterasa fosforilada, restaurando la función enzimática bloqueada por organofosforados.",
-    "indicaciones": "• Intoxicación por organofosforados (junto con atropina)",
-    "dosis": "• Adultos: 1–2 g IV en 15–30 min, repetir cada 1 h si persisten síntomas o infusión continua 500 mg/h.\n• Niños: 20–50 mg/kg IV.",
-    "contraindicaciones": "• Hipersensibilidad\n• Insuficiencia renal (ajustar dosis)",
-    "observaciones": "• Iniciar lo antes posible para evitar envejecimiento del complejo fosforilado.",
-    "interacciones": "• No combinar con relajantes musculares despolarizantes.",
-    "toxicidad": "• Visión borrosa, hipertensión, taquicardia, rigidez muscular.",
-    "tags": ["antídoto", "organofosforados", "acetilcolinesterasa", "colinérgico", "toxicología"]
-  },
-  {
-    "nombre": "Naloxona",
-    "mecanismo": "Antagonista competitivo de receptores opioides μ, κ y δ. Revierte depresión respiratoria y sedación causada por opioides.",
-    "indicaciones": "• Intoxicación o sobredosis por opioides (morfina, heroína, fentanilo)\n• Diagnóstico de intoxicación mixta con depresión respiratoria",
-    "dosis": "• Adultos: 0.4–2 mg IV/IM cada 2–3 min según respuesta (máx 10 mg). Infusión continua si es necesario.",
-    "contraindicaciones": "• Hipersensibilidad (rara)\n• Precaución en adictos crónicos (puede inducir abstinencia aguda)",
-    "observaciones": "• Vida media corta, puede requerir dosis repetidas.",
-    "interacciones": "• Antagoniza efectos analgésicos de opioides.",
-    "toxicidad": "• Síntomas de abstinencia aguda: agitación, taquicardia, hipertensión, vómitos.",
-    "tags": ["antídoto", "opioides", "naloxona", "sobredosis", "toxicología"]
-  },
-  {
-    "nombre": "Flumazenil",
-    "mecanismo": "Antagonista competitivo de las benzodiacepinas en el receptor GABA-A.",
-    "indicaciones": "• Intoxicación aguda por benzodiacepinas\n• Reversión de sedación en procedimientos diagnósticos",
-    "dosis": "• Adultos: 0.2 mg IV en 30 s; repetir cada 1 min hasta 1–3 mg según respuesta.",
-    "contraindicaciones": "• Intoxicación mixta con antidepresivos tricíclicos\n• Epilepsia tratada con benzodiacepinas\n• Hipersensibilidad",
-    "observaciones": "• Puede inducir convulsiones si se usa en intoxicaciones mixtas.",
-    "interacciones": "• Antagoniza efectos de benzodiacepinas y alcohol.",
-    "toxicidad": "• Náuseas, mareo, agitación, convulsiones (raro).",
-    "tags": ["antídoto", "benzodiacepinas", "GABA", "sedante", "toxicología"]
-  },
-  {
     "nombre": "Antiveneno polivalente (Bothrops-Crotalus-Lachesis)",
     "mecanismo": "Anticuerpos equinos que neutralizan las toxinas proteolíticas, neurotóxicas y coagulantes de venenos de serpientes del género Bothrops, Crotalus y Lachesis.",
     "indicaciones": "• Mordeduras por serpientes venenosas en América Latina (Bothrops, Crotalus, Lachesis)",
@@ -1065,126 +768,5 @@
     "interacciones": "• Reduce absorción de medicamentos orales administrados concomitantemente.",
     "toxicidad": "• Náuseas, vómitos, constipación, aspiración pulmonar (si no se protege vía aérea).",
     "tags": ["antídoto", "adsorbente", "intoxicación oral", "emergencia", "toxicología"]
-  },
-    {
-    "nombre": "Etinilestradiol + Levonorgestrel",
-    "mecanismo": "Combinación de estrógeno (etinilestradiol) y progestágeno (levonorgestrel) que inhibe la ovulación mediante supresión de la secreción hipofisaria de FSH y LH. Espesa el moco cervical y altera el endometrio, impidiendo la implantación.",
-    "indicaciones": "• Anticoncepción oral combinada\n• Regulación del ciclo menstrual\n• Disminución de dismenorrea y síndrome premenstrual",
-    "dosis": "• 1 tableta diaria durante 21 días, luego 7 días de descanso o placebo (según presentación).",
-    "contraindicaciones": "• Trombosis venosa o arterial\n• Cáncer de mama o endometrial\n• Fumadoras mayores de 35 años\n• Hepatopatía severa\n• Migraña con aura",
-    "observaciones": "• Reiniciar al primer día del sangrado menstrual.\n• Si se olvida una dosis, tomarla en las 12 h siguientes.",
-    "interacciones": "• Disminuye eficacia con rifampicina, fenitoína, carbamazepina, topiramato y algunos antibióticos.\n• Potencia toxicidad de ciclosporina.",
-    "toxicidad": "• Náuseas, cefalea, sensibilidad mamaria, retención de líquidos.\n• Raro: tromboembolismo venoso.",
-    "tags": ["anticonceptivo", "combinado", "estrógeno", "progestágeno", "ginecología"]
-  },
-  {
-    "nombre": "Etinilestradiol + Drospirenona",
-    "mecanismo": "Inhibe la ovulación y modifica el moco cervical. Drospirenona, derivado de espironolactona, tiene efecto antimineralocorticoide y antiandrogénico leve.",
-    "indicaciones": "• Anticoncepción oral\n• Acné moderado\n• Síndrome premenstrual severo",
-    "dosis": "• 1 tableta diaria por 24 días con 4 días de placebo (régimen 24/4).",
-    "contraindicaciones": "• Trombosis venosa, insuficiencia renal, hiperpotasemia, enfermedad hepática severa.",
-    "observaciones": "• Beneficia mujeres con retención de líquidos o acné.\n• Controlar potasio en pacientes con IECA o ARA II.",
-    "interacciones": "• Riesgo de hiperpotasemia con diuréticos ahorradores de potasio.\n• Disminuye eficacia con inductores enzimáticos hepáticos.",
-    "toxicidad": "• Náuseas, cefalea, aumento de potasio, sensibilidad mamaria.",
-    "tags": ["anticonceptivo", "drospirenona", "estrógeno", "antiandrogénico", "ginecología"]
-  },
-  {
-    "nombre": "Etinilestradiol + Desogestrel",
-    "mecanismo": "Suprime la ovulación, aumenta la viscosidad del moco cervical e impide la proliferación endometrial.",
-    "indicaciones": "• Anticoncepción combinada\n• Regulación del ciclo menstrual\n• Manejo del acné leve",
-    "dosis": "• 1 tableta diaria por 21 días, seguidos de 7 días de descanso.",
-    "contraindicaciones": "• Historia de tromboembolismo\n• Tumores hormonodependientes\n• Fumadoras mayores de 35 años.",
-    "observaciones": "• Alta eficacia anticonceptiva con baja androgenicidad.",
-    "interacciones": "• Disminuye eficacia con anticonvulsivantes inductores enzimáticos.",
-    "toxicidad": "• Náuseas, aumento de peso leve, cambios de humor.",
-    "tags": ["anticonceptivo", "estrógeno", "progestágeno", "desogestrel", "ginecología"]
-  },
-  {
-    "nombre": "Etinilestradiol + Gestodeno",
-    "mecanismo": "Inhibe la ovulación al suprimir la secreción de gonadotropinas. El gestodeno posee alta afinidad progestacional con mínimo efecto androgénico.",
-    "indicaciones": "• Anticoncepción oral combinada\n• Regulación hormonal\n• Control de dismenorrea",
-    "dosis": "• 1 tableta diaria durante 21 días con 7 días de descanso.",
-    "contraindicaciones": "• Tromboembolismo, hepatopatía, cáncer hormonodependiente, migraña con aura.",
-    "observaciones": "• Eficaz y bien tolerado en mujeres con acné o seborrea.",
-    "interacciones": "• Disminuye eficacia con inductores del CYP3A4 (rifampicina, fenitoína).",
-    "toxicidad": "• Dolor mamario, cefalea, náuseas, cambios de humor.",
-    "tags": ["anticonceptivo", "estrógeno", "gestodeno", "baja androgenicidad", "ginecología"]
-  },
-  {
-    "nombre": "Etinilestradiol + Norgestimato",
-    "mecanismo": "Suprime la ovulación y altera el moco cervical. Norgestimato se metaboliza a norgestrel, con actividad progestacional moderada.",
-    "indicaciones": "• Anticoncepción\n• Tratamiento del acné moderado\n• Síndrome de ovario poliquístico (SOP)",
-    "dosis": "• 1 tableta diaria por 21 días, seguidos de 7 días sin comprimido.",
-    "contraindicaciones": "• Historia de trombosis o migraña con aura.\n• Cáncer de mama.",
-    "observaciones": "• Mejora síntomas del SOP y acné por reducción de andrógenos libres.",
-    "interacciones": "• Disminuye eficacia con anticonvulsivantes o antibióticos de amplio espectro.",
-    "toxicidad": "• Náuseas, mastalgia, irritabilidad, leve aumento de peso.",
-    "tags": ["anticonceptivo", "SOP", "estrógeno", "progestágeno", "acné"]
-  },
-  {
-    "nombre": "Desogestrel (solo progestágeno)",
-    "mecanismo": "Inhibe la ovulación en el 97–99% de los ciclos. Espesa el moco cervical y reduce la receptividad endometrial.",
-    "indicaciones": "• Anticoncepción en mujeres con contraindicación a estrógenos (lactancia, riesgo trombótico)",
-    "dosis": "• 1 tableta diaria sin descanso, a la misma hora cada día.",
-    "contraindicaciones": "• Sangrado vaginal no diagnosticado\n• Cáncer de mama activo.",
-    "observaciones": "• Anticonceptivo ideal durante la lactancia.\n• La eficacia disminuye si se retrasa la toma >12 h.",
-    "interacciones": "• Rifampicina y anticonvulsivantes reducen eficacia.",
-    "toxicidad": "• Irregularidad menstrual, cefalea, mastalgia.",
-    "tags": ["anticonceptivo", "progestágeno", "lactancia", "minipíldora", "ginecología"]
-  },
-  {
-    "nombre": "Levonorgestrel (progestágeno solo)",
-    "mecanismo": "Espesa el moco cervical e inhibe parcialmente la ovulación; modifica el endometrio, impidiendo la implantación.",
-    "indicaciones": "• Anticoncepción continua\n• Opción en lactancia o contraindicación a estrógenos",
-    "dosis": "• 1 tableta diaria sin intervalos, preferiblemente a la misma hora.",
-    "contraindicaciones": "• Hemorragia uterina no diagnosticada\n• Cáncer de mama.",
-    "observaciones": "• Puede causar amenorrea o sangrado irregular.\n• Seguro durante la lactancia.",
-    "interacciones": "• Eficacia reducida con inductores enzimáticos hepáticos.",
-    "toxicidad": "• Náuseas, sangrado irregular, mastalgia, acné leve.",
-    "tags": ["anticonceptivo", "progestágeno", "oral", "lactancia", "minipíldora"]
-  },
-  {
-    "nombre": "Dienogest + Etinilestradiol",
-    "mecanismo": "Suprime la ovulación y modula el endometrio. Dienogest posee efecto antiandrogénico y antiproliferativo.",
-    "indicaciones": "• Anticoncepción oral combinada\n• Tratamiento del acné\n• Manejo de endometriosis leve",
-    "dosis": "• 1 tableta diaria durante 21 días con 7 de descanso.",
-    "contraindicaciones": "• Trombosis venosa, cáncer hormonodependiente, hepatopatía.",
-    "observaciones": "• Puede mejorar la dismenorrea y endometriosis leve.",
-    "interacciones": "• Inductores del CYP3A4 reducen niveles plasmáticos.",
-    "toxicidad": "• Náuseas, cefalea, sensibilidad mamaria, cambios de humor.",
-    "tags": ["anticonceptivo", "dienogest", "endometriosis", "estrógeno", "antiandrogénico"]
-  },
-  {
-    "nombre": "Etinilestradiol + Noretisterona",
-    "mecanismo": "Combinación que inhibe ovulación, aumenta viscosidad del moco cervical y suprime proliferación endometrial.",
-    "indicaciones": "• Anticoncepción oral combinada\n• Control de sangrado menstrual abundante",
-    "dosis": "• 1 tableta diaria por 21 días con 7 días sin comprimido.",
-    "contraindicaciones": "• Trombosis, migraña con aura, hepatopatía severa.",
-    "observaciones": "• Puede usarse también en dismenorrea severa.",
-    "interacciones": "• Rifampicina y barbitúricos disminuyen eficacia.",
-    "toxicidad": "• Náuseas, cefalea, sangrado intermenstrual.",
-    "tags": ["anticonceptivo", "estrógeno", "progestágeno", "menorragia", "ginecología"]
-  },
-  {
-    "nombre": "Levonorgestrel (anticoncepción de emergencia)",
-    "mecanismo": "Inhibe o retrasa la ovulación y altera el endometrio, dificultando la implantación.",
-    "indicaciones": "• Anticoncepción postcoital dentro de 72 h del coito sin protección.",
-    "dosis": "• 1.5 mg VO dosis única (o 0.75 mg cada 12 h × 2 dosis).",
-    "contraindicaciones": "• Embarazo confirmado\n• Sangrado vaginal no diagnosticado.",
-    "observaciones": "• No protege frente a futuras relaciones sexuales.\n• Menor eficacia si el IMC >30 kg/m².",
-    "interacciones": "• Disminuye eficacia con inductores enzimáticos (rifampicina, carbamazepina).",
-    "toxicidad": "• Náuseas, vómitos, alteración del ciclo menstrual.",
-    "tags": ["emergencia", "anticonceptivo", "levonorgestrel", "postcoital", "ginecología"]
-  },
-  {
-    "nombre": "Medroxiprogesterona acetato (Depo-Provera)",
-    "mecanismo": "Progestágeno que inhibe la secreción de gonadotropinas (LH y FSH), bloqueando la ovulación. Además, espesa el moco cervical e impide la proliferación endometrial.",
-    "indicaciones": "• Anticoncepción a largo plazo (3 meses)\n• Endometriosis\n• Menorragia funcional",
-    "dosis": "• 150 mg intramuscular profunda cada 12 semanas (3 meses).",
-    "contraindicaciones": "• Sangrado vaginal no diagnosticado\n• Cáncer de mama\n• Enfermedad hepática activa",
-    "observaciones": "• Ideal para pacientes que no pueden usar estrógenos.\n• Puede causar amenorrea reversible.\n• Retorno a la fertilidad puede tardar 6–12 meses tras la suspensión.",
-    "interacciones": "• Eficacia reducida con inductores de CYP3A4 (rifampicina, fenitoína).",
-    "toxicidad": "• Aumento de peso, irregularidades menstruales, disminución de densidad ósea a largo plazo.",
-    "tags": ["anticonceptivo", "progestágeno", "inyectable", "larga duración", "ginecología"]
   }
 ]
