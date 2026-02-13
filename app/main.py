@@ -123,7 +123,7 @@ def main(page: ft.Page):
         meds = load_meds_raw()
         return sorted(meds, key=lambda m: m.get("nombre", "").lower())
 
-    # ------------------------------------------
+        # ------------------------------------------
     def pagina_medicamentos(page: ft.Page):
         all_meds = cargar_medicamentos_desde_json()
 
@@ -135,68 +135,13 @@ def main(page: ft.Page):
             color=ft.Colors.ON_SURFACE_VARIANT,
         )
 
-        batch_size = 20
-        current_index = 0
         current_data = all_meds
         list_container = ft.Column(spacing=20)
-        loading = False 
 
         def make_item(med):
             return crear_panel_medicamento(med)["componente"]
 
-        def cargar_mas(need_update=True):
-            nonlocal current_index, loading
-            if loading:
-                return
-            loading = True
-            try:
-                if current_index >= len(current_data):
-                    return
-                end = min(current_index + batch_size, len(current_data))
-                # Evitar IndexError
-                for i in range(current_index, end):
-                    if i < len(current_data):
-                        try:
-                            list_container.controls.append(make_item(current_data[i]))
-                        except Exception:
-                            continue
-                current_index = min(end, len(current_data))
-                if need_update:
-                    try:
-                        page.update()
-                    except Exception:
-                        pass
-            finally:
-                loading = False
-
-        def on_scroll(e):
-            # Cargar más cuando se llega al final de la lista
-            try:
-                if e.pixels >= e.max_scroll_extent - 150:
-                    cargar_mas(need_update=True)
-            except Exception:
-                pass
-
-        def filtrar_items(e):
-            nonlocal current_data, current_index
-            try:
-                filtro = (e.control.value or "").lower()
-            except Exception:
-                filtro = ""
-            if not filtro:
-                current_data = all_meds
-            else:
-                # Filtrar por nombre o tags
-                filtered = []
-                for med in all_meds:
-                    nombre = med.get("nombre", "").lower()
-                    tags = " ".join(med.get("tags", [])).lower()
-                    if filtro in nombre or filtro in tags:
-                        filtered.append(med)
-                # Ordenar los resultados filtrados
-                current_data = sorted(filtered, key=lambda m: m.get("nombre", "").lower())
-            # Reset y cargar lote
-            current_index = 0
+        def cargar_todos():
             list_container.controls.clear()
             if len(current_data) == 0:
                 list_container.controls.append(
@@ -206,43 +151,42 @@ def main(page: ft.Page):
                         padding=50,
                     )
                 )
-                try:
-                    page.update()
-                except Exception:
-                    pass
-                return
-            # carga el primer lote de forma segura
-            try:
-                cargar_mas(need_update=False)
-                page.update()
-            except Exception:
-                try:
-                    page.update()
-                except Exception:
-                    pass
+            else:
+                for med in current_data:
+                    try:
+                        list_container.controls.append(make_item(med))
+                    except Exception:
+                        continue
+            page.update()
 
-        if len(current_data) == 0:
-            list_container.controls.append(
-                ft.Container(
-                    content=mensaje_no_resultados,
-                    alignment=ft.alignment.center,
-                    padding=50,
-                )
-            )
-        else:
-            end = min(batch_size, len(current_data))
-            for i in range(0, end):
-                list_container.controls.append(make_item(current_data[i]))
-            current_index = end
+        def filtrar_items(e):
+            nonlocal current_data
+            filtro = (e.control.value or "").lower()
 
-        # Boton de añadir medicamento
+            if not filtro:
+                current_data = all_meds
+            else:
+                filtered = []
+                for med in all_meds:
+                    nombre = med.get("nombre", "").lower()
+                    tags = " ".join(med.get("tags", [])).lower()
+                    if filtro in nombre or filtro in tags:
+                        filtered.append(med)
+
+                current_data = sorted(filtered, key=lambda m: m.get("nombre", "").lower())
+
+            cargar_todos()
+
+        # Cargar todos al inicio
+        cargar_todos()
+
+        # Boton añadir medicamento
         btn_add = ft.IconButton(
             icon=ft.Icons.ADD,
             icon_size=28,
             tooltip="Añadir medicamento",
             on_click=lambda e: open_med_dialog(page, med=None),
         )
-
 
         search_field = search_bar(filtrar_items, buscar)
 
@@ -260,11 +204,11 @@ def main(page: ft.Page):
                         expand=True,
                         padding=ft.padding.symmetric(horizontal=10, vertical=5),
                         controls=[list_container],
-                        on_scroll=on_scroll,
                     ),
                 ),
             ],
         )
+
 
 # -------------------------------------------------------------------------------
     # Dialog para editar/crear un medicamento
