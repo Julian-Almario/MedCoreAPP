@@ -2,13 +2,13 @@ import os
 import flet as ft
 import re
 
-RUTA_NOTAS = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "notas"))
+RUTA_NOTAS = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "anciclopedia"))
 os.makedirs(RUTA_NOTAS, exist_ok=True)
 
 def listar_notas():
     return [f for f in os.listdir(RUTA_NOTAS) if f.lower().endswith(".md")]
 
-def pantalla_home(page: ft.Page):
+def anciclopedia_page(page: ft.Page):
     lista_notas = ft.Column(spacing=10, expand=True)
     mostrar_barra = True
     current_view = "notas"
