@@ -2,7 +2,7 @@ import os
 import flet as ft
 import re
 
-RUTA_NOTAS = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "notas"))
+RUTA_NOTAS = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "guias"))
 os.makedirs(RUTA_NOTAS, exist_ok=True)
 
 def listar_notas():
