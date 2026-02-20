@@ -74,6 +74,7 @@ def main(page: ft.Page):
         return list_container, filtrar_items
 
     def build_fixed_page(list_data, placeholder_busqueda):
+
         mensaje_no_resultados = ft.Text(
             value="No se encontraron resultados",
             style=ft.TextThemeStyle.BODY_MEDIUM,
@@ -83,23 +84,24 @@ def main(page: ft.Page):
 
         list_container, filtrar_items = list_content_search(list_data, mensaje_no_resultados)
 
-        return ft.Column(
+        search_field = search_bar(filtrar_items, placeholder_busqueda)
+
+        # APPBAR SOLO PARA ESTA PANTALLA
+        page.appbar = ft.AppBar(
+            bgcolor=ft.Colors.TRANSPARENT,
+            title=ft.Container(
+                content=search_field,
+                padding=ft.padding.symmetric(horizontal=40),
+            ),
+        )
+
+        return ft.Container(
             expand=True,
-            controls=[
-                ft.Container(
-                    content=search_bar(filtrar_items, placeholder_busqueda),
-                    padding=ft.padding.symmetric(horizontal=40, vertical=10),
-                    alignment=ft.alignment.center,
-                ),
-                ft.Container(
-                    expand=True,
-                    content=ft.ListView(
-                        expand=True,
-                        padding=ft.padding.symmetric(horizontal=10, vertical=5),
-                        controls=[list_container],
-                    ),
-                ),
-            ],
+            content=ft.ListView(
+                expand=True,
+                padding=ft.padding.symmetric(horizontal=10, vertical=5),
+                controls=[list_container],
+            ),
         )
 
 # -------------------------------------------------------------------------------
@@ -126,6 +128,7 @@ def main(page: ft.Page):
 
         # ------------------------------------------
     def pagina_medicamentos(page: ft.Page):
+
         all_meds = cargar_medicamentos_desde_json()
 
         buscar = "Buscar medicamentos..."
@@ -140,7 +143,7 @@ def main(page: ft.Page):
         current_index = 0
         current_data = all_meds
         list_container = ft.Column(spacing=20)
-        loading = False 
+        loading = False
 
         def make_item(med):
             return crear_panel_medicamento(med)["componente"]
@@ -153,53 +156,48 @@ def main(page: ft.Page):
             try:
                 if current_index >= len(current_data):
                     return
+
                 end = min(current_index + batch_size, len(current_data))
-                # Evitar IndexError
+
                 for i in range(current_index, end):
-                    if i < len(current_data):
-                        try:
-                            list_container.controls.append(make_item(current_data[i]))
-                        except Exception:
-                            continue
-                current_index = min(end, len(current_data))
-                if need_update:
                     try:
-                        page.update()
+                        list_container.controls.append(make_item(current_data[i]))
                     except Exception:
-                        pass
+                        continue
+
+                current_index = end
+
+                if need_update:
+                    page.update()
+
             finally:
                 loading = False
 
         def on_scroll(e):
-            # Cargar más cuando se llega al final de la lista
-            try:
-                if e.pixels >= e.max_scroll_extent - 150:
-                    cargar_mas(need_update=True)
-            except Exception:
-                pass
+            if e.pixels >= e.max_scroll_extent - 150:
+                cargar_mas()
 
         def filtrar_items(e):
             nonlocal current_data, current_index
-            try:
-                filtro = (e.control.value or "").lower()
-            except Exception:
-                filtro = ""
+
+            filtro = (e.control.value or "").lower()
+
             if not filtro:
                 current_data = all_meds
             else:
-                # Filtrar por nombre o tags
-                filtered = []
-                for med in all_meds:
-                    nombre = med.get("nombre", "").lower()
-                    tags = " ".join(med.get("tags", [])).lower()
-                    if filtro in nombre or filtro in tags:
-                        filtered.append(med)
-                # Ordenar los resultados filtrados
-                current_data = sorted(filtered, key=lambda m: m.get("nombre", "").lower())
-            # Reset y cargar lote
+                current_data = sorted(
+                    [
+                        m for m in all_meds
+                        if filtro in m.get("nombre", "").lower()
+                        or filtro in " ".join(m.get("tags", [])).lower()
+                    ],
+                    key=lambda x: x.get("nombre", "").lower()
+                )
+
             current_index = 0
             list_container.controls.clear()
-            if len(current_data) == 0:
+
+            if not current_data:
                 list_container.controls.append(
                     ft.Container(
                         content=mensaje_no_resultados,
@@ -207,36 +205,20 @@ def main(page: ft.Page):
                         padding=50,
                     )
                 )
-                try:
-                    page.update()
-                except Exception:
-                    pass
-                return
-            # carga el primer lote de forma segura
-            try:
-                cargar_mas(need_update=False)
-                page.update()
-            except Exception:
-                try:
-                    page.update()
-                except Exception:
-                    pass
+            else:
+                cargar_mas(False)
 
-        if len(current_data) == 0:
-            list_container.controls.append(
-                ft.Container(
-                    content=mensaje_no_resultados,
-                    alignment=ft.alignment.center,
-                    padding=50,
-                )
-            )
+            page.update()
+
+        if current_data:
+            cargar_mas(False)
         else:
-            end = min(batch_size, len(current_data))
-            for i in range(0, end):
-                list_container.controls.append(make_item(current_data[i]))
-            current_index = end
+            list_container.controls.append(
+                ft.Container(content=mensaje_no_resultados, alignment=ft.alignment.center, padding=50)
+            )
 
-        # Boton de añadir medicamento
+        search_field = search_bar(filtrar_items, buscar)
+
         btn_add = ft.IconButton(
             icon=ft.Icons.ADD,
             icon_size=28,
@@ -244,27 +226,23 @@ def main(page: ft.Page):
             on_click=lambda e: open_med_dialog(page, med=None),
         )
 
+        page.appbar = ft.AppBar(
+            bgcolor=ft.Colors.TRANSPARENT,
+            title=ft.Container(
+                content=search_field,
+                padding=ft.padding.symmetric(horizontal=40),
+            ),
+            actions=[btn_add]
+        )
 
-        search_field = search_bar(filtrar_items, buscar)
-
-        return ft.Column(
+        return ft.Container(
             expand=True,
-            controls=[
-                ft.Container(
-                    content=ft.Row([search_field, btn_add], alignment=ft.MainAxisAlignment.CENTER, spacing=10),
-                    padding=ft.padding.symmetric(horizontal=40, vertical=10),
-                    alignment=ft.alignment.center,
-                ),
-                ft.Container(
-                    expand=True,
-                    content=ft.ListView(
-                        expand=True,
-                        padding=ft.padding.symmetric(horizontal=10, vertical=5),
-                        controls=[list_container],
-                        on_scroll=on_scroll,
-                    ),
-                ),
-            ],
+            content=ft.ListView(
+                expand=True,
+                padding=ft.padding.symmetric(horizontal=10, vertical=5),
+                controls=[list_container],
+                on_scroll=on_scroll,
+            ),
         )
 
 
@@ -503,16 +481,21 @@ def main(page: ft.Page):
     # Paginacion
     def load_current_page():
         if current_page_index == 0:
+            page.appbar = None
             show_cals()
         elif current_page_index == 1:
             main_content.controls.clear()
+            page.appbar = None
             main_content.controls.append(algoritmos_page(page))
         elif current_page_index == 2:
+            page.appbar = None
             show_meds()
         elif current_page_index == 3:
             main_content.controls.clear()
+            page.appbar = None
             main_content.controls.append(anciclopedia_page(page))
         elif current_page_index == 4:
+            page.appbar = None
             show_info()
 
     load_current_page()
