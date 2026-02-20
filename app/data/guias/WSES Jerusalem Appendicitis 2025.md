@@ -1,6 +1,6 @@
 # Guía de Implementación Clínica: Urgencias Abdominales Comunes
 
-## 1. Apendicitis Aguda (WSES 2025)
+## Apendicitis Aguda
 
 ### Paso 1: Estratificación de Riesgo Inicial
 Ante un paciente con dolor en fosa ilíaca derecha, utiliza escalas clínicas antes de solicitar imágenes:
@@ -24,7 +24,7 @@ Ante un paciente con dolor en fosa ilíaca derecha, utiliza escalas clínicas an
 
 ---
 
-## 2. Colecistitis Aguda (Tokio 2018 - TG18)
+## Colecistitis Aguda
 
 ### Paso 1: Criterios Diagnósticos (A + B + C)
 | Categoría | Criterios |
