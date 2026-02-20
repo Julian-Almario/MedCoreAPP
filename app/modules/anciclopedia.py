@@ -33,6 +33,7 @@ def anciclopedia_page(page: ft.Page):
 
         if current_view == "nota":
             return ft.AppBar(
+                toolbar_height=70,
                 leading=ft.IconButton(
                     ft.Icons.ARROW_BACK,
                     tooltip="Volver",
@@ -46,6 +47,7 @@ def anciclopedia_page(page: ft.Page):
 
         else:
             return ft.AppBar(
+                toolbar_height=70,
                 leading_width=40,
                 title=ft.Container(
                     content=search_bar,

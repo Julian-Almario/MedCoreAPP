@@ -88,6 +88,7 @@ def main(page: ft.Page):
 
         # APPBAR SOLO PARA ESTA PANTALLA
         page.appbar = ft.AppBar(
+            toolbar_height=70,
             bgcolor=ft.Colors.TRANSPARENT,
             title=ft.Container(
                 content=search_field,
@@ -99,7 +100,7 @@ def main(page: ft.Page):
             expand=True,
             content=ft.ListView(
                 expand=True,
-                padding=ft.padding.symmetric(horizontal=10, vertical=5),
+                padding=ft.padding.symmetric(horizontal=15, vertical=5),
                 controls=[list_container],
             ),
         )
@@ -227,6 +228,7 @@ def main(page: ft.Page):
         )
 
         page.appbar = ft.AppBar(
+            toolbar_height=70,
             bgcolor=ft.Colors.TRANSPARENT,
             title=ft.Container(
                 content=search_field,
@@ -239,7 +241,7 @@ def main(page: ft.Page):
             expand=True,
             content=ft.ListView(
                 expand=True,
-                padding=ft.padding.symmetric(horizontal=10, vertical=5),
+                padding=ft.padding.symmetric(horizontal=10),
                 controls=[list_container],
                 on_scroll=on_scroll,
             ),
