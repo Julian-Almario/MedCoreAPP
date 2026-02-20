@@ -15,7 +15,7 @@ Toda gestante, puérpera o con aborto en los últimos 40 días que presente:
 
 ### Sífilis Congénita (Caso Confirmado)
 Se cumple si se presenta al menos uno de los siguientes criterios:
-1.  **Nexo epidemiológico:** Fruto de la gestación de madre con sífilis gestacional no tratada o tratada inadecuadamente (se considera tratamiento adecuado haber recibido penicilina benzatínica $\geq$ 30 días antes del parto).
+1.  **Nexo epidemiológico:** Fruto de la gestación de madre con sífilis gestacional no tratada o tratada inadecuadamente (se considera tratamiento adecuado haber recibido penicilina benzatínica 30 días antes del parto).
 2.  **Laboratorio:** Títulos de prueba no treponémica en el recién nacido **4 veces mayores** que los de la madre al parto, o demostración de *T. pallidum* en tejidos/secreciones.
 3.  **Clínica/Paraclínicos:** Neonato con manifestaciones sugeritvas (bajo peso, hepatoesplenomegalia, rinorrea, anemia, alteraciones óseas en rayos X o neurosífilis con VDRL reactivo en LCR).
 

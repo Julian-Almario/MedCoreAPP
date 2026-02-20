@@ -4,15 +4,15 @@
 1.  **Evaluación en el Primer Contacto Médico (FMC):** Realizar e interpretar un **ECG de 12 derivaciones en <10 minutos**.
 2.  **Bioquímica:** Obtener niveles de **troponina cardíaca (cTn)**, preferiblemente **ultrasensible (hs-cTn)**, lo antes posible.
 3.  **Clasificación por ECG:**
-    *   **STEMI:** Elevación nueva o presuntamente nueva del segmento ST en $\ge2$ derivaciones contiguas (ver criterios específicos por edad/sexo en la fuente).
-    *   **NSTE-ACS:** Depresión del segmento ST $\ge0.5$ mm, inversión de onda T $>1$ mm con onda R prominente, o ECG no diagnóstico.
+    *   **STEMI:** Elevación nueva o presuntamente nueva del segmento ST en 2 derivaciones contiguas (ver criterios específicos por edad/sexo en la fuente).
+    *   **NSTE-ACS:** Depresión del segmento ST 0.5 mm, inversión de onda T >1 mm con onda R prominente, o ECG no diagnóstico.
 
 ---
 
 ## II. Manejo del STEMI (Infarto con Elevación del ST)
 1.  **Estrategia de Reperfusión (Tiempo es Miocardio):**
-    *   **PCI Primaria (PPCI):** Estrategia preferida si el tiempo FMC-dispositivo es **$\le90$ minutos** (o $\le120$ min si requiere traslado).
-    *   **Fibrinólisis:** Si la PPCI no es posible en $<120$ minutos y el paciente no tiene contraindicaciones. Administrar en los primeros **30 minutos** tras la llegada.
+    *   **PCI Primaria (PPCI):** Estrategia preferida si el tiempo FMC-dispositivo es **90 minutos** (o 120 min si requiere traslado).
+    *   **Fibrinólisis:** Si la PPCI no es posible en <120 minutos y el paciente no tiene contraindicaciones. Administrar en los primeros **30 minutos** tras la llegada.
 2.  **Tratamiento Coadyuvante:**
     *   **Aspirina:** Dosis de carga de **162–325 mg** (masticada) seguido de 75–100 mg diarios.
     *   **Inhibidor P2Y12:** **Prasugrel o Ticagrelor** son preferidos sobre Clopidogrel para pacientes que van a PCI. Clopidogrel es el agente de elección si se administra fibrinólisis.
