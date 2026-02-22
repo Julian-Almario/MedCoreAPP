@@ -8,8 +8,8 @@
 - Dosis tóxica: > 60 ml.
 - Daño visual: Puede ocurrir con 30 ml de ingesta.
 - Concentración tóxica en sangre:
-  - > 20 mg/dL es tóxica.
-  - > 40 mg/dL es muy peligrosa.
+  - 20 mg/dL es tóxica.
+  - 40 mg/dL es muy peligrosa.
 - El ácido fórmico es el principal metabolito tóxico, que causa acidosis metabólica y daño a órganos terminales.
 
 # Manifestaciones Clínicas
