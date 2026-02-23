@@ -130,16 +130,6 @@ calculadoras = [
             "componente": NIHSS() 
         },
         {
-            "titulo": "Liquidos adulto",
-            "tags": ["electrolitos", "liquidos"],
-            "componente": liquidos_adultos() 
-        },
-        {
-            "titulo": "Liquidos pediatria",
-            "tags": ["electrolitos", "liquidos"],
-            "componente": liquidos_pediatria() 
-        },
-        {
             "titulo": "Ballard score",
             "tags": ["pediatria","prematuro"],
             "componente": BallardScore()
