@@ -26,8 +26,8 @@
 ![Severidad del hierro](/anexos/Severidad_hierro.png)
 
 - **Severidad**:
-  - < 20 mg/dL: El paciente no está intoxicado y puede ser enviado a casa.
-  - > 60 mg/dL: El paciente tiene un alto riesgo de muerte por sangrado.
+  - menor a 20 mg/dL: El paciente no está intoxicado y puede ser enviado a casa.
+  - mayor a 60 mg/dL: El paciente tiene un alto riesgo de muerte por sangrado.
 - El vómito es un marcador sensible pero no determina la gravedad.
 - **Determinación del hierro en plasma**:
   - Valores normales de hierro sérico: 150-200 mg/dL.
