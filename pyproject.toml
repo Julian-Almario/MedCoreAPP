@@ -1,6 +1,6 @@
 [project]
 name = "medcore"
-version = "2.5.3"
+version = "3.0.0"
 description = "Application for calculating, searching, and accessing medical tools for your medical practice and study. "
 readme = "README.md"
 requires-python = ">=3.9"
@@ -27,6 +27,14 @@ splash.android = false
 [tool.flet.android.signing]
 key_store = "path/to/key/key.jks"
 key_alias = "upload"
+
+[tool.flet.android.permissions]
+"android.permission.READ_EXTERNAL_STORAGE" = true
+"android.permission.WRITE_EXTERNAL_STORAGE" = true
+"android.permission.MANAGE_EXTERNAL_STORAGE" = true
+"android.permission.READ_MEDIA_IMAGES" = true
+"android.permission.READ_MEDIA_VIDEO" = true
+"android.permission.READ_MEDIA_AUDIO" = true
 
 
 [tool.uv]

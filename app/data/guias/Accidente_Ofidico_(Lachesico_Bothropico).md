@@ -1,8 +1,4 @@
-<-- [[Toxicología]]
-#Toxicologia #Serpientes #Venenos
-
 # Generalidades
-![dienteserpientes](/anexos/dienteserpientes.png)
 
 **El accidente ofidico** se define como todos aquellos casos en los cuales se ve involucrada una serpiente, ya sea en zona rural o urbana, en las cuales para poder saber las características de una serpiente debemos conocer cuales son y no son venenosa como se ve en la imagen de arriba, en este caso **la importancia mas relevante son sus dientes**, pero también debemos conocer las características de su cuerpo así como el color y su tamaño para poder identificar de mejor manera a la serpiente y actuar de forma rápida y con el antídoto adecuado y así reduciendo la mortalidad, la mayoría de las serpientes aquí expuestas se **pueden encontrar en cualquier zona del país tanto urbanas como rurales**. Dentro de las especies mas comunes en Colombia tenemos:
 
@@ -19,29 +15,7 @@
 # Caracteristicas
 
 **Su colmillos son de tipo SOLENOGLIFAS**  
-![dientesviperidos](/anexos/dientesviperidos.png)
-
 Tenemos tantos la venensoas como no venenosas, para identificarlas lo hacemos con las caracteristicas que nos de el paciente siguiendo sus caracteristicas fisica, como primero los ojos los cuales pueden ser **Ovalado (NO venenosas)** o **El linea como un gato (Venenosas)**, Las escamas en las venenosas son mas grandes, ademas de que **la cabeza de un tamaño mas grande que el cuerpo en las VENENOSAS** y en las **NO VENENOSAS la cabeza es del mismo tamaño que el cuerpo** 
-
-VENENOSAS | NO VENENOSAS  
-![cabeza_ojos_viperidos](/anexos/cabeza_ojos_viperidos.png)
-
-## Como se ven algunas serpientes
-
-**Venenosa**  
-![bothorps](/anexos/bothorps.png)
-
-**Venenosa**  
-![porthidium](/anexos/porthidium.png)
-
-**NO venenosa**  
-![bothrops](/anexos/bothrops.png)
-
-**Venenosa**  
-![bothriechis](/anexos/bothriechis.png)
-
-**Venenosa**  
-![lachesis](/anexos/lachesis.png)
 
 # Veneno
 El veneno es una secreción de color blanco-amarillento, con una composición compleja de proteínas, azucares, iones y amilasas. cuya funcion es facilitar la captura y digestión de su presa.
@@ -65,11 +39,10 @@ En este caso lo unidco de lo que se diferencia es que la **lachesis presenta efe
 | GRAVE | - Edema: 3 o más segmentos con compromiso de tronco - Mordedura de cara o cuello - Necrosis - Ofidio mayor de 1m - Todos los accidentes por Lachesis muta | - Compromiso hemodinámico- Complicaciones como CID, falla renal aguda, compromiso del SNC - Sangrado sistemático - TP, TPT prolongados |
 
 Una de las complicaciones mas comunes que podemos encontrar es la presentacion de sindrome compartimental, siendo la principalk causa en la cual si no se hace un manejo adecuado el paciente puede perder dicha extremidad.  
-![Sindromecompartimental](/anexos/Sindromecompartimental.jpg)
+
 
 El DX es meramente clinico, y la presencia de sintomas y en caso tal de que tengamos dudas podemos hacer la prueba del **Todo o nada**.
 
-![testtodoonada](/anexos/testtodoonada.png)
 
 Se toma sangre en un frasco de muestra sin anticuagulantes, se agita la muestra y **SE DEJA QUIETA (si llega hacer manipulada en este tiempo hay que repetir la prueba)** y luego se revisa si sigue completemente liquida es POSITIVA. Pero si se ven cuagulos es negativa o volvemos a realizar la prueba|.
 

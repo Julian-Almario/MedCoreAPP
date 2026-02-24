@@ -47,7 +47,7 @@ Basicamente lo que ocurre es cardiotoxicicadad y de paso por su alta afinidad en
 
 Dosis toxicas no documentadas porque evidentemente no vamos a hacer experimentos en el ser humano de forna innecesaria.
 ## Manifestaciones clinicas
-![Efectoslocalesbetabloquedaores](/anexos/efectoslocalesbbloqueadores.jpg)
+
 
 Las manifestaciones cardiacas suelen presentarse entre las 2 a 4 horas despues del la ingesta.
 
@@ -70,13 +70,11 @@ Es meramente clinico y hay que indagar en la presentacion del caso del paciente 
 
 **La identificacion del farmaco es importante para pode brindar el antidoto correcto para el caso en cuestión**
 ## Tratamiento
-![txbbloqueadores](/anexos/txbbloqueadores.jpg)
 
 # Calcio_antagonistas
 ## Generalidades
 Este grupo de medicamentos son altamaente usados en la actualizada, como terapia para la hiprertension, angina espasmos coronario, cardiopatia, arritmias supraventriculaes y en algunso casos migraña,aunque en **dosis terapeuticas sea selectivo** en **sobre dosis se pierede esta selectividad alterando la conduccion de los nodos y su contractibilidad**. y en la mayoria de los casos se descubre la sobredosis por una **hipotension segundaria acompañada de bradiarritmias** 
 ## Farmacología
-![canales de calcio](/anexos/canales_calcio.png)
 
 El mecanismo de acción es común para todos los calcio antagonistas y consiste básicamente en la inhibición de los canales de calcio voltaje dependientes tipo L (“long-acting”), los cuales se encuentran principalmente en el miocardio y musculo liso vascular, estos canales producen normalmente un aumento del calcio intracelular y por lo tanto favorecen la contracción cardiaca 1,2. Cada grupo de los calcioantagonistas se une a una región ligeramente diferente de la subunidad α1c del canal de calcio, teniendo diferentes afinidades por los distintos tipos de canales de calcio tipo-L y reducen de esta manera el flujo de calcio a través del canal, induciendo inotropismo negativo y vasodilatación. Los calcio antagonistas también inhiben los canales de calcio tipo-L localizados en los islotes β pancreáticos, disminuyendo la secreción de insulina, resultando en hiperglucemia3,4.
 

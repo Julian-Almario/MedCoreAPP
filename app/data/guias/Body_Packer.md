@@ -12,7 +12,6 @@ La forma en la cual mueren esto pacientes que los paquetes que traen dentro de s
 # Fisiopatológica
 La fisiopatológica depende del paquete pero principalmente se encuentra 2 toxidromes:
 
-![toxidromesbp](/anexos/toxidromesbp.png)
 
 # DX
 

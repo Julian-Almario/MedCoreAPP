@@ -85,7 +85,6 @@ Los anticuagulantes directos son muy comun mente utilizados asi que es muy impor
 - **Edoxaban**
 
 En el terreno farmacologico los DOACs tiene muchas ventajas como su comienzo de accion rapida, vida media corta y menor interacion con los medicamentos, ademas de tener una farmacodinamia predecibles que hace que no requieran de control de paraclinicos para saber el estado del paciente.
-![Doacs](/anexos/ToxicoDoacs.png)
 
 ### Terapia puente
 - La terapia puente al inicio de los anticoagulantes orales directos implica el uso temporal de un anticoagulante de acción rápida, como la HBPM o la HNF, durante el inicio del tratamiento con un Doacs. Escenarios donde se inicia HBPM o HNF antes de Doacs: 
@@ -96,8 +95,6 @@ En el terreno farmacologico los DOACs tiene muchas ventajas como su comienzo de 
 - 5. ⁠Embarazo
 
 ### Manifestaciones clinicas
-
-![Doacs](/anexos/ManifestacionesDoacs.png)
 
 ### Dx
 Meramente clinico apoyado de paraclinicos.

@@ -5,8 +5,6 @@ Algunas pueden causar accidentes mas que otras pero para el ser humano estas son
 las arañas que entran dentro de la clasificación para el ser humano son:
 ## Loxosceles
 
-![loxocelles](/anexos/loxocelles.jpg)
-
 ### Caracteristicas
 Es pequeña, mire de 1 a 3 cm, con una formula ocular 2:2:2, a menudo su patro de piel se asemeja a una estrella o violín, **no son agresivas**, las picaduras ocurren porque esta araña tiende a estar en sabanas y en la ropa de los domicilios de los pacientes y por su tamaño pasa desperdiciada por los mismos.
 ### Veneno
@@ -20,8 +18,8 @@ Un componente clave es la esfingomielinasa D, que activa la cascada del compleme
 | Eritema                                                                                                                                                                                                         | Laboratorios compatibles con hemolisis  |
 | Edema caracterico indurado                                                                                                                                                                                      | 24 horas despues de la mordeduda        |
 | Acentuacion del cuadro a las 24 a 72 horas                                                                                                                                                                      | Anemia                                  |
-| ![ulceraloxocelles](/anexos/Ulceraloxoscelismo.png)                                                                                                                                                                                     | Ictericia                               |
-| ![extencionloxocelles](/anexos/extencionloxocelismo.png)                                                                                                                                                                                | Hemoglobinuria                          |
+|                                                                                                                                                                                     | Ictericia                               |
+|                                                                                                                                                                                 | Hemoglobinuria                          |
 | Progresion de los sintomas lenta primeras 12 a 36 horas, dolor leve y eritema y a los 7 dias ya se presenta la ulceración que es el estadio mas común en el cual llegue un paciente por que pasa desperdiciado. | **Gravedad**, Insuficiencia renal aguda |
 ### Diagnostico
 Se puede hacer por clinica, acompañado de la historia clinica dada por el paciente o los familiar y si trajeron o no a la araña. para determinar la gravedad se le puede solicitar lo siguiente y se puede manifestar en ellos los siguiente:
@@ -55,7 +53,6 @@ también se puede contemplar el uso de cámara hiperbárica para mejorar la vasc
 **Cutáneo visceral específico:** 10 ampollas de suero específico o 4 ampollas de Reclusmyn del Instituto Bioclon de México.
 
 ## Phoneutrias
-![phoneutrias](/anexos/Phoneutrias.jpg)
 
 ### Caracteristicas
 Es grande, mide 4 a 15 cm, fórmula ocular 2:4:2, tiene en el toraco abdomen tiene unos puntitos blancos, la posición, lo mira y le abre las patas, es muy típico de esta, chasquea los dedos y produce un sonido. La de Brasil tiene rojo y la colombiana tiene café. **Son extremadamente agresivas** y pueden saltar a una distancia de alrededor de 30 cm. para picar a la víctima, e incluso hacerlo más de una vez.
@@ -85,7 +82,6 @@ Este es 100% clinico. Los pacientes tiende a ser muy enfaticos sobre lo que les 
 | NO APLICAR EPINEFRINA POR RIESGO A NECROSIS                                                                                 |                                                               |                                                                |
 
 ## Latrodectus
-![viudanegra](/anexos/viudanegra.JPG)
 ### Caracteristicas
 Comun emtne conocidas con viuda negras, Son animales de pequeño porte, las hembras tienen alrededor de 1,5 a 2 cm. de envergadura y los machos en torno de 3 mm, de colores variados abdomen globosos y un patro de ojos 4:4.
 
@@ -117,7 +113,6 @@ Estos sintomas suelen ceder 3 dias luego del accidente
 | Hospitalizacion y observacion                                                                  |                                                           |                                                               |
 Si se trata de de forma rapida tiene un pronostico de letalidad del 4 al 5 %
 ## Theraphosa
-![tarantulas](/anexos/tarantulas.jpg)
 
 ### Caracteristicas
 Muy grandes, peludas y son facilmente reconocibles
@@ -132,7 +127,6 @@ No requiere 100% clinico
 A menudo lo que se haces es con una cinta ponela en el sitio de la lesion y asi poder retirar los vellos que estan ocacionando la alergia mas manejo sintomatico
 
 ## Lycosa
-![lycosa](/anexos/Lycosa_tarantula.png)
 
 ### Caracteristicas
 Similar  la tarantula
@@ -149,12 +143,8 @@ A menudo lo que se haces es con una cinta ponela en el sitio de la lesion y asi 
 # Accidente escorpico
 
 - Los escorpiones pertenecen a los arácnidos, Los escorpiones o alacranes son los artrópodos venenosos más antiguos, Todos los escorpiones son venenosos, pero no todos son venenosos para el ser humano. Pueden ser un riesgo vital para el ser humano. En Colombia se encuentran 4 familias: **Buthidae, Chactidae, Diplocentridae, Liochelidae**, Los escorpiones habitan regiones tropicales y templadas
-![Escoorpionesvalle](/anexos/Escoorpionesvalle.png)
 
 Miden entre 5-12cm Su cuerpo compuesto de dos partes, cefalotórax, donde están los pedipalpos, 4 pares de patas y los queliseros. La segunda parte es el opistosoma, donde está la cola.
-
-![escorpiones](/anexos/escorpiones.jpg)
-![escorpiones](/anexos/escorpionespeligrososnopeligrosos.png)
 
 
 ## Toxicodinamia

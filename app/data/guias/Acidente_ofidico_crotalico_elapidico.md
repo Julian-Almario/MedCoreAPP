@@ -1,5 +1,4 @@
 # Generalidades
-![dienteserpientes](/anexos/dienteserpientes.png)
 
 Los dientes de estas serpientes son **Proteroglifas**, ademas de que estas serpientes tiene una mandibula pequeña lo que hace que en algunas ocaciones se queden atrapadas en el sitio de la mordedura de la victima, estas serpientes son relativamente **TImidas y pacificas**, en general se encuentrea en todo elterritorio del pais especialmente en las zonas **Caficultoras**, en general son mas comunes los accidentes en niños y jovenes
 
@@ -17,17 +16,12 @@ Algunas d elas caracteristicas de colores que podemos encontrarson las siguiente
 ## Datos a tener en cuenta
 El color de los patrones de colores en linea debe **abarcar todo el cuerpo** **si el color NO cubre todo el cuerpo es NO VENENOSA**
 
-## Micrurus mirapitus
+- Micrurus mirapitus
 - Coral rabo de ají  
-![raboaji](/anexos/raboaji.png)
-
-## Micrurus dumerili
-![dumerili](/anexos/dumerili.png)
+- Micrurus dumerili
 
 # Veneno
 La cantidad de veneno que **producen las serpientes de coral varía de 3 a 5 mg**, siendo la **dosis letal de 2.5 miligramos**. Los venenos de los Elápidos actúan principalmente sobre las células excitables.  Su efecto tóxico más importante es impedir la transmisión del impulso nervioso en las sinapsis colinérgicas o **Neurotoxico**. por lo tanto, ocasionan parálisis muscular que lleva a insuficiencia respiratoria e incluso asfixia-
-
-![pasovenenocoral](/anexos/pasovenenocoral.png)
 
 # Dx y manifestaciones clinicas
 100% clinico, una buena anamnesis e identificación de la serpiente para poder administrar el antidoto del paciente y evitar mortalidad.

@@ -20,10 +20,7 @@
 
 - En la intoxicación por hierro, disminuye el factor II, IV, IX, y X, lo que aumenta el tiempo de protrombina (TP) y conlleva al sangrado.
 
-![Manifestaciones_Hierro](/anexos/Manifestaciones_Hierro.png)
 # Diagnóstico
-
-![Severidad del hierro](/anexos/Severidad_hierro.png)
 
 - **Severidad**:
   - menor a 20 mg/dL: El paciente no está intoxicado y puede ser enviado a casa.

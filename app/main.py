@@ -4,7 +4,7 @@ import json
 from modules.cal import *
 from modules.info import *
 from modules.algoritmos import *
-from modules.anciclopedia import *
+from modules.gallery import *
 
 def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
@@ -469,8 +469,8 @@ def main(page: ft.Page):
                 label="Medicamentos"
             ),
             ft.NavigationBarDestination(
-                icon=ft.Icons.BOOK,
-                label="Anciclopedia clinica"
+                icon=ft.Icons.ENHANCE_PHOTO_TRANSLATE,
+                label="Ojo clinico"
             ),
             ft.NavigationBarDestination(
                 icon=ft.Icons.INFO_OUTLINED,
@@ -488,14 +488,14 @@ def main(page: ft.Page):
         elif current_page_index == 1:
             main_content.controls.clear()
             page.appbar = None
-            main_content.controls.append(algoritmos_page(page))
+            main_content.controls.append(algoritmos_and_note_page(page))
         elif current_page_index == 2:
             page.appbar = None
             show_meds()
         elif current_page_index == 3:
             main_content.controls.clear()
             page.appbar = None
-            main_content.controls.append(anciclopedia_page(page))
+            main_content.controls.append(gallery_page(page))
         elif current_page_index == 4:
             page.appbar = None
             show_info()

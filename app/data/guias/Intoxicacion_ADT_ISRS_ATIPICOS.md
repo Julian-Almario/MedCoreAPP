@@ -3,17 +3,15 @@
 Son un grupo de medicamentos usados para el tratamiento de la depresion, dolor neuropatico, la migraña, el deficit de atencion, transtornno de panico y TOC. Eran muy comunmente usado pero actualmente se octo por usar otra familia de medicamentos por se mejor abderencia, cabe de resaltar que es muy comun que estos medicamentos se usen con fines autolesivos.
 
 ## Farmacocinetica y fisiopatologia
-![adtmolecula](/anexos/adtmolecula.png)
+
 Altamente liposolubles, atraviesa la barrera hematoencefalica con una absorcion *rapida* por tracto grastrointestinal con **niveles plasmaticos pico luego de las 2 y 8 horas de la ingesta** este metabolismo se de primer paso por medio del higado y su enzima [CYP450](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0034-75152014000300015), su excresion es por via renal.
 
-![manifestacionesadp](/anexos/manifestacionesadp.png)
 
 ## Manifestaciones Clinicas
 Las manifestaciones de los ADT son principalmente **Neurologicas y cadiovasculares**, que va con una pergresion desde un paciente que ingresa en *somnoliento* y en minutos pregresar a *hipotencion, convulsiones he incluso coma*.
 
 No hay una dosis limite establecida, pero lossintomas se empieza a manifestar a partir de estas dosis:
 
-![dosistoxicaadt](/anexos/dosistoxicaadt.png)
 
 10 mg*kg* en dultos
 5 mg*kg* en niños
@@ -77,11 +75,9 @@ Los atipicos lo cuales no entrar un una clasificacion tipica cuenta con un mecan
 ## Toxicodinamia y Toxicocinetica
 Los ISRS son liposolubles Tmax se alcanza entre las 4 y 8 horas, tiene un gran volumen de distribucion y una distribucion amplia en el organismo con un alto grado de fijacion a proteinas excepto por el *citalopram*, teniendo un fuerte *metabolismo de primer paso por medio del sustrato CYP2D6* y tiene una vida media de 7 a 14 dias, excepto la fluoxetina que e de 2 a 4 horas.
 
-![isrsmolecule](/anexos/isrsmolecule.png)
 Tienen perfiles farmacocinéticos y tóxicos variados debido a sus diferentes mecanismos de acción. Generalmente, se absorben rápidamente tras la administración oral y alcanzan concentraciones plasmáticas máximas en unas pocas horas. La mayoría sufre un extenso metabolismo hepático por el sistema enzimático CYP450 (principalmente CYP3A4, CYP2D6) y tienen una vida media de eliminación variable, entre 6 y 33 horas dependiendo del fármaco específico.
 
 ## Manifestaciones Clinicas
-![Sintomas depresivos](/anexos/SItomasantidepresivosatipicos.png)
 
 ## Diagnostico
 *100% CLINICO*

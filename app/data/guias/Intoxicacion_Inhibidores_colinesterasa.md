@@ -68,7 +68,7 @@ aparece a las 24-96 horas (hasta el 6.º día). Se manifiesta como una debilidad
 - **Síndrome piramidal**: En algunos casos, se observa un síndrome de la primera motoneurona o superior (también llamado síndrome piramidal), caracterizado por:
     - **Espasticidad**: Incremento en el tono muscular, que se opone al movimiento pasivo de los músculos.
     - **Hiperreflexia**: Aumento de los reflejos tendinosos profundos, con la excepción del reflejo aquíleo, que puede estar disminuido o ausente.
-![Manifestaciones colinergicas](/anexos/manifestaciones_colinesterasa.png)
+
 
 # Tratamiento
 ## Menejo general
